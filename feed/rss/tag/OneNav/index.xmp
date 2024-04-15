@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/OneNav/">
+<title>Fu Speaking - OneNav</title>
+<link>http://enblog.fuyiran.link/tag/OneNav/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/46.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/46.html">
+<title>OneNav: A Personalized Bookmark Management System</title>
+<link>http://enblog.fuyiran.link/Technology/46.html</link>
+<dc:date>2023-08-20T00:04:00+08:00</dc:date>
+<description>Introduction:OneNav, a bookmark management system developed using PHP + SQLite 3, centralizes browser bookmark management, ensuring deployment in one place and access from anywhere.Features:Distinctive featuresSupports backend managementSupports private linksSupports bulk import of bookmarks from Chrome/Firefox/EdgeSupports multiple theme stylesSupports automatic link information recognitionSupports APISupports Docker deploymentSupports uTools pluginSupports secondary categorizationSupports browser extensions (plugins) for Chromium kernelSupports online updatesMobile version backend[...]</description>
+</item>
+</rdf:RDF>

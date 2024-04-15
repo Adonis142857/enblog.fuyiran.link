@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Tiny-Tiny-RSS/">
+<title>Fu Speaking - Tiny Tiny RSS</title>
+<link>http://enblog.fuyiran.link/tag/Tiny-Tiny-RSS/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/41.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/41.html">
+<title>Tiny Tiny RSS ～ an excellent RSS aggregation reading service</title>
+<link>http://enblog.fuyiran.link/Technology/41.html</link>
+<dc:date>2023-08-17T12:30:00+08:00</dc:date>
+<description>Introduction:Tiny Tiny RSS is a free open-source RSS aggregator reading service based on PHP. Awesome TTRSS offers a Tiny Tiny RSS container deployed using Docker. It enhances the user experience by offering a simple deployment method and some additional plugins.[...]</description>
+</item>
+</rdf:RDF>

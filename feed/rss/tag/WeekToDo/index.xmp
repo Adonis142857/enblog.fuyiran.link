@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/WeekToDo/">
+<title>Fu Speaking - WeekToDo</title>
+<link>http://enblog.fuyiran.link/tag/WeekToDo/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/42.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/42.html">
+<title>WeekToDo : A Minimalist To-Do List</title>
+<link>http://enblog.fuyiran.link/Technology/42.html</link>
+<dc:date>2023-08-17T23:26:00+08:00</dc:date>
+<description>Introduction:WeekToDo is a privacy-focused to-do list. Users can schedule tasks and projects through the to-do list and calendar. It offers clients on Windows, Mac, and Linux operating systems and can also be used directly online.Features:Supports cross-platform useSupports light and dark mode switchingCustomizable to-do listDrag and drop functionalityMultilingual supportSub-task functionalityMarkdown supportCustomizable user interfaceLocal storageTask color markingTask timing settingsRecurring tasksNotifications and reminder functionality[...]</description>
+</item>
+</rdf:RDF>

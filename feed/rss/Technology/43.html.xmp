@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/Technology/43.html">
+<title>Comments to Fu Speaking - Habitica: Using Games to Cultivate Your Habits</title>
+<link>http://enblog.fuyiran.link/Technology/43.html</link>
+<description>Introduction:Habitica is an open-source habit-building program that treats your life as a role-pl...</description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/43.html#comment-3"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/43.html#comment-3">
+<title>guset</title>
+<link>http://enblog.fuyiran.link/Technology/43.html#comment-3</link>
+<dc:date>2023-11-12T17:50:28+08:00</dc:date>
+<description>great</description>
+</item>
+</rdf:RDF>

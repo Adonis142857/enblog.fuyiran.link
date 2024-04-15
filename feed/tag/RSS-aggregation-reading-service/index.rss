@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - RSS aggregation reading service</title>
+<link>http://enblog.fuyiran.link/tag/RSS-aggregation-reading-service/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/RSS-aggregation-reading-service/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Thu, 17 Aug 2023 12:30:00 +0800</lastBuildDate>
+<pubDate>Thu, 17 Aug 2023 12:30:00 +0800</pubDate>
+<item>
+<title>Tiny Tiny RSS ～ an excellent RSS aggregation reading service</title>
+<link>http://enblog.fuyiran.link/Technology/41.html</link>
+<guid>http://enblog.fuyiran.link/Technology/41.html</guid>
+<pubDate>Thu, 17 Aug 2023 12:30:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Tiny Tiny RSS is a free open-source RSS aggregator reading service based on PHP. Awe...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Tiny Tiny RSS is a free open-source RSS aggregator reading service based on PHP. Awesome TTRSS offers a Tiny Tiny RSS container deployed using Docker. It enhances the user experience by offering a simple deployment method and some additional plugins.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/41.html" title="Tiny Tiny RSS ～ an excellent RSS aggregation reading service">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/41.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/RSS-aggregation-reading-service/</wfw:commentRss>
+</item>
+</channel>
+</rss>

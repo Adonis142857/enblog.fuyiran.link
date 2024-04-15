@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Maddy/">
+<title>Fu Speaking - Maddy</title>
+<link>http://enblog.fuyiran.link/tag/Maddy/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/18.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/18.html">
+<title>Want to Set Up Your Own Mail Server? Try Maddy</title>
+<link>http://enblog.fuyiran.link/Technology/18.html</link>
+<dc:date>2023-08-06T00:17:00+08:00</dc:date>
+<description>Introduction:Maddy is a mail server developed in Go, easy to deploy, low in resource consumption, and suitable for personal use.[...]</description>
+</item>
+</rdf:RDF>

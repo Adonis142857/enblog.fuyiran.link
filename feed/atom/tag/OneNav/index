@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/OneNav/"
+>
+<title type="text">Fu Speaking - OneNav</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-20T00:04:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/OneNav/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/OneNav/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/OneNav/" />
+<entry>
+<title type="html"><![CDATA[OneNav: A Personalized Bookmark Management System]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/46.html" />
+<id>http://enblog.fuyiran.link/Technology/46.html</id>
+<updated>2023-08-20T00:04:00+08:00</updated>
+<published>2023-08-20T00:04:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:OneNav, a bookmark management system developed using PHP + SQLite 3, centralizes bro...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/46.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>OneNav, a bookmark management system developed using PHP + SQLite 3, centralizes browser bookmark management, ensuring deployment in one place and access from anywhere.</p><h2>Features:</h2><ul><li>Distinctive features</li><li>Supports backend management</li><li>Supports private links</li><li>Supports bulk import of bookmarks from Chrome/Firefox/Edge</li><li>Supports multiple theme styles</li><li>Supports automatic link information recognition</li><li>Supports API</li><li>Supports Docker deployment</li><li>Supports uTools plugin</li><li>Supports secondary categorization</li><li>Supports browser extensions (plugins) for Chromium kernel</li><li>Supports online updates</li><li>Mobile version backend</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/46.html" title="OneNav: A Personalized Bookmark Management System">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/46.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/OneNav/" thr:count="0"/>
+</entry>
+</feed>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Instant-Chat-Application/">
+<title>Fu Speaking - Instant Chat Application</title>
+<link>http://enblog.fuyiran.link/tag/Instant-Chat-Application/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/44.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/13.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/44.html">
+<title>TangSengDaoDao, An Open-Source Instant Messaging Software</title>
+<link>http://enblog.fuyiran.link/Technology/44.html</link>
+<dc:date>2023-08-19T00:12:00+08:00</dc:date>
+<description>Introduction:TangSengDaoDao is a lightweight, high-performance, security-focused open-source instant messaging system, dedicated to private deployment.Features:🆓 Open Source & Free: Server-side code, APP code, Web/PC-side code are all open source under the Apache 2.0 open-source license (commercially usable), no one can control you.🔏 Private Deployment: All programs and data are on your own server. No need to worry about data leakage or data being used for other purposes.🆚 Guaranteed Message Delivery: Uses tcp + ack mechanism to ensure message delivery, supports offline messages, and message roaming.🔐 Content Security: Message transmission uses a private binary encryption protocol, DH + streaming encryption, to prevent message content leakage.💽 Permanent Message Storage: Messages support permanent storage, thanks to WuKongIM's proprietary messaging db. Permanent storage doesn't affect performance, just consumes some disk space.📱 Multi-Device Message Sync: Supports 1 mobile end, multiple Web/PC ends online simultaneously, and real-time message synchronization between multiple devices.📟 Full Platform Support: iOS, Android, Windows, MAC, Ubuntu, WebNote:In the self-deployed client, new users must use the iOS/Android app for registration and password recovery is not available. The open source version has a lot of features that are not available and Tailchat is more recommendedDeployment Tutorial：https://enblog.fuyiran.link/Technology/13.html[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/13.html">
+<title>How to Configure an Easily Expandable Instant Chat Application — Tailchat</title>
+<link>http://enblog.fuyiran.link/Technology/13.html</link>
+<dc:date>2023-08-03T10:53:00+08:00</dc:date>
+<description>Introduction:Tailchat—An open-source and easily expandable instant chat application, making communication more free, flexible, and fun[...]</description>
+</item>
+</rdf:RDF>

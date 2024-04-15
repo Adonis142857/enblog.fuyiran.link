@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Own-Book-Library/">
+<title>Fu Speaking - Own Book Library</title>
+<link>http://enblog.fuyiran.link/tag/Own-Book-Library/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/33.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/33.html">
+<title>Building Your Own Book Library with Talebook</title>
+<link>http://enblog.fuyiran.link/Technology/33.html</link>
+<dc:date>2023-08-13T12:57:00+08:00</dc:date>
+<description>Introduction:Talebook is a simple but powerful private book management system, built on the Calibre project. It has features like book management, online reading and pushing, user management, SSO login, and fetching book information from Baidu/Douban. TalebookZbookUser System❌✅Online Reading✅❌Push Books to Kindle❌✅Private Mode✅❌Import Book Info from Baidu, Douban✅❌Upload Books✅❌ (Officially updated after uploading the ebook file package)Book Search Speed🌟🌟🌟🌟🌟🌟🌟🌟Interface Aesthetics🌟🌟🌟🌟🌟🌟🌟🌟🌟Deployment Difficulty😈😈😈😈😈😈[...]</description>
+</item>
+</rdf:RDF>

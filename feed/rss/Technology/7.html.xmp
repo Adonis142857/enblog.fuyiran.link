@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/Technology/7.html">
+<title>Comments to Fu Speaking - How to Introduce &amp;quot;Busuanzi&amp;quot; to Count Visits in Typecho</title>
+<link>http://enblog.fuyiran.link/Technology/7.html</link>
+<description>Implementation EffectThe count is not displayed until the visitor data is retrieved.The main site...</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

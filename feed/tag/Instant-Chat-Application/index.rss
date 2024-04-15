@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Instant Chat Application</title>
+<link>http://enblog.fuyiran.link/tag/Instant-Chat-Application/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Instant-Chat-Application/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Sat, 19 Aug 2023 00:12:00 +0800</lastBuildDate>
+<pubDate>Sat, 19 Aug 2023 00:12:00 +0800</pubDate>
+<item>
+<title>TangSengDaoDao, An Open-Source Instant Messaging Software</title>
+<link>http://enblog.fuyiran.link/Technology/44.html</link>
+<guid>http://enblog.fuyiran.link/Technology/44.html</guid>
+<pubDate>Sat, 19 Aug 2023 00:12:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:TangSengDaoDao is a lightweight, high-performance, security-focused open-source inst...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>TangSengDaoDao is a lightweight, high-performance, security-focused open-source instant messaging system, dedicated to private deployment.</p><h2>Features:</h2><ul><li>🆓 <strong>Open Source & Free</strong>: Server-side code, APP code, Web/PC-side code are all open source under the Apache 2.0 open-source license (commercially usable), no one can control you.</li><li>🔏 <strong>Private Deployment</strong>: All programs and data are on your own server. No need to worry about data leakage or data being used for other purposes.</li><li>🆚 <strong>Guaranteed Message Delivery</strong>: Uses tcp + ack mechanism to ensure message delivery, supports offline messages, and message roaming.</li><li>🔐 <strong>Content Security</strong>: Message transmission uses a private binary encryption protocol, DH + streaming encryption, to prevent message content leakage.</li><li>💽 <strong>Permanent Message Storage</strong>: Messages support permanent storage, thanks to WuKongIM's proprietary messaging db. Permanent storage doesn't affect performance, just consumes some disk space.</li><li>📱 <strong>Multi-Device Message Sync</strong>: Supports 1 mobile end, multiple Web/PC ends online simultaneously, and real-time message synchronization between multiple devices.</li><li>📟 <strong>Full Platform Support</strong>: iOS, Android, Windows, MAC, Ubuntu, Web</li></ul><h2>Note:</h2><p>In the self-deployed client, new users must use the iOS/Android app for registration and password recovery is not available. <br>The open source version has a lot of features that are not available and Tailchat is more recommended<br>Deployment Tutorial：<a href="https://enblog.fuyiran.link/Technology/13.html">https://enblog.fuyiran.link/Technology/13.html</a><br><img src="https://pic.imgdb.cn/item/64df967d661c6c8e54bb738f.jpg" alt="" title=""></p><p class="more"><a href="http://enblog.fuyiran.link/Technology/44.html" title="TangSengDaoDao, An Open-Source Instant Messaging Software">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/44.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Instant-Chat-Application/</wfw:commentRss>
+</item>
+<item>
+<title>How to Configure an Easily Expandable Instant Chat Application — Tailchat</title>
+<link>http://enblog.fuyiran.link/Technology/13.html</link>
+<guid>http://enblog.fuyiran.link/Technology/13.html</guid>
+<pubDate>Thu, 03 Aug 2023 10:53:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Tailchat—An open-source and easily expandable instant chat application, making commu...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p><strong>Tailchat—An open-source and easily expandable instant chat application, making communication more free, flexible, and fun</strong></p><p class="more"><a href="http://enblog.fuyiran.link/Technology/13.html" title="How to Configure an Easily Expandable Instant Chat Application — Tailchat">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/13.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Instant-Chat-Application/</wfw:commentRss>
+</item>
+</channel>
+</rss>

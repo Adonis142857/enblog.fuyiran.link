@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Forum/">
+<title>Fu Speaking - Forum</title>
+<link>http://enblog.fuyiran.link/tag/Forum/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/3.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/1.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/3.html">
+<title>How to Configure Rainmap Lite - Web-based Nmap for Network Scanning</title>
+<link>http://enblog.fuyiran.link/Technology/3.html</link>
+<dc:date>2023-07-30T01:15:00+08:00</dc:date>
+<description>Introduction:Rainmap Lite is a responsive web application that allows users to easily launch Nmap scans from mobile devices, tablets, or web browsers. Unlike its predecessor Rainmap, Rainmap Lite is simpler to deploy and doesn't require special services (such as RabbitMQ, PostgreSQL, Celery, supervisor, etc.). Just install the Django app and add a cron polling task to easily set up a new scan server on any server.Features:Easily launch Nmap scans with a few clicks.Responsive interface ensures smooth operation on mobile/tablet devices.Send reports via email in all formats.View reports from a web browser.Schedule scanning tasks.Provides dozens of scan profiles for users to choose from.Simple installation/setup.List items[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/1.html">
+<title>Flarum - A Clean, Elegant, Highly Customizable Forum</title>
+<link>http://enblog.fuyiran.link/Technology/1.html</link>
+<dc:date>2023-07-29T00:27:00+08:00</dc:date>
+<description>Introduction:Flarum is an elegant and clean forum, built with PHP. It features a beautiful responsive layout, and its interface is constructed using Mithril. It boasts high customizability and extensibility.[...]</description>
+</item>
+</rdf:RDF>

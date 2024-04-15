@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Uptime-Kuma/">
+<title>Fu Speaking - Uptime Kuma</title>
+<link>http://enblog.fuyiran.link/tag/Uptime-Kuma/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/15.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/15.html">
+<title>How to Deploy Uptime Kuma - A Multi-faceted Monitoring Tool, Not Limited to Websites</title>
+<link>http://enblog.fuyiran.link/Technology/15.html</link>
+<dc:date>2023-08-04T10:12:00+08:00</dc:date>
+<description>Introduction:Uptime Kuma, a monitoring tool that brings you peace of mind, can monitor websites, databases, Docker containers, and even Steam game servers. It integrates nearly 50 notification methods for real-time status updates, allowing direct configuration of proxies and reverse proxies without the need for tedious installation, making usage more relaxed.[...]</description>
+</item>
+</rdf:RDF>

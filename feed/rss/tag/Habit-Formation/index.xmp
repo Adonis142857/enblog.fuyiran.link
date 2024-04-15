@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Habit-Formation/">
+<title>Fu Speaking - Habit Formation</title>
+<link>http://enblog.fuyiran.link/tag/Habit-Formation/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/43.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/43.html">
+<title>Habitica: Using Games to Cultivate Your Habits</title>
+<link>http://enblog.fuyiran.link/Technology/43.html</link>
+<dc:date>2023-08-18T11:30:00+08:00</dc:date>
+<description>Introduction:Habitica is an open-source habit-building program that treats your life as a role-playing game. When you successfully achieve the goals you set, your character will level up. If you fail, your character will lose HP in the game. You can also earn money to purchase weapons and armor by forming habits. This program not only helps you build and stick to habits but also brings you the fun and sense of accomplishment of gaming.Note:It's not recommended for individuals to deploy this themselves. Official apps are available for Android and IOS. Self-deployment cannot be linked (but can interact with the web version).[...]</description>
+</item>
+</rdf:RDF>

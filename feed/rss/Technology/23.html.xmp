@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/Technology/23.html">
+<title>Comments to Fu Speaking - HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws</title>
+<link>http://enblog.fuyiran.link/Technology/23.html</link>
+<description>IntroductionA honeypot, a technology used to deceive attackers, is created by setting up hosts, n...</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Honeypot</title>
+<link>http://enblog.fuyiran.link/tag/Honeypot/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Honeypot/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Tue, 08 Aug 2023 10:38:00 +0800</lastBuildDate>
+<pubDate>Tue, 08 Aug 2023 10:38:00 +0800</pubDate>
+<item>
+<title>HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws</title>
+<link>http://enblog.fuyiran.link/Technology/23.html</link>
+<guid>http://enblog.fuyiran.link/Technology/23.html</guid>
+<pubDate>Tue, 08 Aug 2023 10:38:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[IntroductionA honeypot, a technology used to deceive attackers, is created by setting up hosts, n...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction</h2><p>A honeypot, a technology used to deceive attackers, is created by setting up hosts, network services, or information as bait to lure attackers into attacking them. This allows capturing and analyzing the attacking behavior, understanding the tools and methods used by the attackers, and inferring the attackers' intentions and motives. It helps defenders to clearly understand the security threats they face and enhance the security protection capabilities of the actual system through technical and management means.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/23.html" title="HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/23.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Honeypot/</wfw:commentRss>
+</item>
+</channel>
+</rss>

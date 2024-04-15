@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Document-Sharing-Platform/">
+<title>Fu Speaking - Document Sharing Platform</title>
+<link>http://enblog.fuyiran.link/tag/Document-Sharing-Platform/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/24.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/24.html">
+<title>Cryptgeon - A Lightweight Secure Message and Document Sharing Platform</title>
+<link>http://enblog.fuyiran.link/Technology/24.html</link>
+<dc:date>2023-08-09T00:12:00+08:00</dc:date>
+<description>Introduction:Cryptgeon is a secure, open-source lightweight platform for sharing encrypted messages and documents, inspired by PrivNote.[...]</description>
+</item>
+</rdf:RDF>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Shared-IP-VPS/">
+<title>Fu Speaking - Shared IP VPS</title>
+<link>http://enblog.fuyiran.link/tag/Shared-IP-VPS/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/4.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/2.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/4.html">
+<title>How to Configure Fail2Ban to Block Malicious Logins</title>
+<link>http://enblog.fuyiran.link/Technology/4.html</link>
+<dc:date>2023-07-30T08:25:00+08:00</dc:date>
+<description>Introduction:Fail2Ban is a tool used to ban malicious logins that result from multiple authentication errors. By scanning log files (such as /var/log/auth.log), this tool can identify and ban IP addresses with excessive failed login attempts. It accomplishes this by updating the system's firewall rules, denying new connections from these IP addresses. Although Fail2Ban can reduce the frequency of erroneous authentication attempts, it cannot entirely eliminate the risks posed by weak authentication. It's recommended to set up two-factor or public key/private key authentication mechanisms to further enhance security.[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/2.html">
+<title>How to Batch Create KVM Shared IP VPS</title>
+<link>http://enblog.fuyiran.link/Technology/2.html</link>
+<dc:date>2023-07-29T08:50:00+08:00</dc:date>
+<description>Introduction:When we have a high-performance server that we are not fully utilizing ourselves, we can consider creating a shared IP VPS for segmentation and selling to others. Using the script introduced in this article to create, each partitioned server can be independent of each other and not interfere with each other. A panel is also provided to manage the partitioned shared IP VPS.Environmental requirements:System requirements: Debian 8+ (Debian 11 is recommended over Debian 12, as the latter is a beta version, while Debian 11 is the stable release)Hardware requirements: A server with at least a dual-core processor, 2 GB of memory, a 64-bit architecture, and at least 20 GB of hard drive spaceRequirements for hardware that can run KVM: VM-X or AMD-V support (supported by some VPS and all dedicated servers)If the hardware or system requirements are not met, you can use LXD to batch create LXC containers[...]</description>
+</item>
+</rdf:RDF>

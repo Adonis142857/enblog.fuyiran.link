@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/Pingvin-Share/"
+>
+<title type="text">Fu Speaking - Pingvin Share</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-07T10:14:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/Pingvin-Share/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/Pingvin-Share/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Pingvin-Share/" />
+<entry>
+<title type="html"><![CDATA[Build Your Own File Sharing Platform? You Might Need Pingvin Share]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/21.html" />
+<id>http://enblog.fuyiran.link/Technology/21.html</id>
+<updated>2023-08-07T10:14:00+08:00</updated>
+<published>2023-08-07T10:14:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Do you really trust handing your files over to third-party file platforms? Try Pingv...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/21.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Do you really trust handing your files over to third-party file platforms? Try Pingvin Share instead</p><ul><li><strong>Easy to Build</strong> - Easily set up your own file sharing platform using a private server</li><li><strong>Complete Privacy</strong> - Your files belong only to you! No need to put them on third-party file platforms</li><li><strong>Focused on Protection</strong> - Supports two-step verification, your files are solely yours</li><li><strong>More Secure</strong> - More Secure - Fear of Trojan Horse when you send it to your friends? No problem, Pingvin Share supports mounting clamav to make your storage more secure.</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/21.html" title="Build Your Own File Sharing Platform? You Might Need Pingvin Share">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/21.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Pingvin-Share/" thr:count="0"/>
+</entry>
+</feed>

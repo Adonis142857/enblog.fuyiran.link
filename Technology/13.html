@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>How to Configure an Easily Expandable Instant Chat Application — Tailchat - Fu Speaking</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="0772f63d-fe5c-4824-b51f-9844a604f1a6"></script>
+    
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="Introduction:Tailchat—An open-source and easily expandable instant chat application, making commu..." />
+<meta name="keywords" content="Configure,Tailchat,Easily Expandable,Instant Chat Application" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="How to Configure an Easily Expandable Instant Chat Application — Tailchat &raquo; Fu Speaking &raquo; RSS 2.0" href="../feed/Technology/13.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="How to Configure an Easily Expandable Instant Chat Application — Tailchat &raquo; Fu Speaking &raquo; RSS 1.0" href="../feed/rss/Technology/13.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="How to Configure an Easily Expandable Instant Chat Application — Tailchat &raquo; Fu Speaking &raquo; ATOM 1.0" href="../feed/atom/Technology/13.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-13'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-13'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-13'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _Mdt7pW = //'7Nv'
+'f0'+'UIS'//'UIS'
++'7cc'//'H3V'
++//'1e'
+'d'+/* 'r'//'r' */''+'c'//'T'
++'3bd'//'md'
++//'8'
+'e4'+''///*'nq7'*/'nq7'
++'2b'//'p'
++''///*'9'*/'9'
++/* 'ZyU'//'ZyU' */''+/* 'gB9'//'gB9' */''+/* 'Gma'//'Gma' */''+'d71'//'ME0'
++//'Lf'
+'Lf'+//'fS'
+'6b2'+''///*'T'*/'T'
++//'p'
+'5'+//'adC'
+'adC'+//'hao'
+'hao'+//'D4'
+'11'+'50'//'xYX'
++/* 'pC'//'pC' */''+'b2e'//'26'
++/* '1f'//'1f' */''+''///*'J'*/'J'
++'d'//'Gtd'
++''///*'ok'*/'ok'
++/* 'HV'//'HV' */''+//'nT'
+'nT'+''///*'I'*/'I'
++//'m'
+'m'+'d2'//'dTW'
++''///*'IY'*/'IY'
++//'qL'
+'7', _s8rUaGR = [[2,5],[17,19],[21,24],[21,24],[29,31],[29,30]];
+    
+    for (var i = 0; i < _s8rUaGR.length; i ++) {
+        _Mdt7pW = _Mdt7pW.substring(0, _s8rUaGR[i][0]) + _Mdt7pW.substring(_s8rUaGR[i][1]);
+    }
+
+    return _Mdt7pW;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" />    <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?4265cd900bfa19d6c09c5dcc2b0976d8";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+</head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">Fu Speaking</a>
+                    <p class="description">Join me as we explore the world from a fresh perspective. Here, you will find unique analysis of the latest tech news, in-depth records of learning processes, distinctive deep thoughts, and practical resource sharing. Whether you're a student, tech enthusiast, or an explorer seeking direction in life, I believe you'll find what you need here. Together, let's learn and co-create the future.</p>
+                            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">Search keywords.</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="Enter keywords to search:"/>
+                    <button type="submit" class="submit">search</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">Index page</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row">
+
+    
+    
+
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="13.html">How to Configure an Easily Expandable Instant Chat Application — Tailchat</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                Author:<a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">Adonis142857</a>
+            </li>
+            <li>Time:                <time datetime="2023-08-02T18:53:00+08:00" itemprop="datePublished">2023-08-02</time>
+            </li>
+            <li>Category:<a href="../category/Technology/index.html">Technology</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>Introduction:</h2><p><strong>Tailchat—An open-source and easily expandable instant chat application, making communication more free, flexible, and fun</strong></p><!--more--><p>For personal users, Tailchat perfectly adapts to the following scenarios:</p><ol><li><strong>Playing with Friends</strong>: Simply create a group, and divide different topics through multiple channels; you can also use a web panel to share your favorite webpages.</li><li><strong>Building Your Fan Circle</strong>: Use bots to subscribe and forward information to the chat panel, gather fans together, avoid creating countless QQ/WeChat groups, and multiple channels enable multiple topics to be generated together.</li><li><strong>Privacy in Your Hands</strong>: If privacy is of great concern to you, Tailchat allows you to deploy it yourself, and everything can be controlled in your hands.</li></ol><p>For business users, Tailchat also has rich features:</p><ol><li><strong>Panelized Design</strong>: Fully meets the customization needs of the enterprise.</li><li><strong>Plug-in Architecture</strong>: Development based on the core becomes extremely convenient.</li><li><strong>Self-deployment Implementation</strong>: Protects corporate value, giving you peace of mind in use.</li><li><strong>Open Source Code</strong>: Transparency of the code makes auditing simple.</li></ol><p><img src="https://pic.imgdb.cn/item/64ca427c1ddac507cc851463.jpg" alt="" title=""></p><h3>Step One: Update the Sources</h3><pre><code class="lang-bash">#Ubuntu/Debian
+apt update -y &amp;&amp; apt upgrade -y    
+#Centos
+yum update -y &amp;&amp; yum upgrade -y    </code></pre><h3>Step Two: Install Docker</h3><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sh ./get-docker.sh</code></pre><h3>Step Three: Pull the Image</h3><pre><code class="lang-bash">docker pull moonrailgun/tailchat # Pull tailchat image from the public image library
+docker tag moonrailgun/tailchat tailchat # Rename the downloaded image as tailchat (keep consistent with source code compilation; if not renamed, source code compilation process will be followed)</code></pre><h3>Step Four: Download Necessary Files</h3><pre><code class="lang-bash">mkdir tailchat &amp;&amp; cd tailchat
+wget https://raw.githubusercontent.com/msgbyte/tailchat/master/docker-compose.yml
+wget https://raw.githubusercontent.com/msgbyte/tailchat/master/docker-compose.env
+wget https://raw.githubusercontent.com/msgbyte/tailchat/master/docker/admin.yml </code></pre><p>Modify the <code>docker-compose.env</code> file settings, suggesting changes to the following content:</p><ol><li><code>API_URL</code> External accessible URL address, used for file service access, can be a domain name or an IP <strong>If images cannot be displayed properly, this variable is not set</strong></li><li><code>SECRET</code> Server encryption key, used to generate Tokens. Default is <code>tailchat</code></li><li><code>SMTP_SENDER</code> Send email verification information, format as <code>xxx@example.com</code> or <code>&quot;YourName&quot; xxx@example.com</code></li><li><code>SMTP_URI</code> SMTP email service address, format as: <code>&lt;protocol&gt;://&lt;username&gt;:&lt;password&gt;@&lt;host&gt;:&lt;port&gt;/&lt;other-info&gt;</code></li><li><code>ADMIN_USER</code> Administrator account name</li><li><code>ADMIN_PASS</code> Administrator account password</li></ol><h3>Step Five: Launch the Application</h3><pre><code class="lang-bash">docker compose -f docker-compose.yml -f admin.yml up -d</code></pre><p>Access: <code>http://&lt;server ip&gt;:11000</code> to open Tailchat</p><p>Access: <code>http://&lt;server ip&gt;:11000/admin</code> to open Tailchat admin panel</p><h2>Note:</h2><p>Below are all the current environment variables, which can be added or modified directly in <code>docker-compose.env</code>. After modifying, run the following command to clear the cache and restart the container</p><table><thead><tr><th>Variable Name</th><th>Default Value</th><th>Description</th></tr></thead><tbody><tr><td>PORT</td><td>11000</td><td>Gateway service port number</td></tr><tr><td>SECRET</td><td>tailchat</td><td>Encryption key, used for JWT</td></tr><tr><td>STATIC_HOST</td><td>"{BACKEND}"</td><td>Externally accessible static service host, used for file service access; defaults to dynamically inferred server address based on front-end request; modify if you wish to store in third-party OSS</td></tr><tr><td>STATIC_URL</td><td>"{BACKEND}/static/"</td><td>Externally accessible full static service URL prefix, used for file service access; defaults to dynamically inferred server address based on front-end request; modify if stored in third-party OSS; if this variable is set, the above <code>STATIC_HOST</code> value is invalid</td></tr><tr><td>API_URL</td><td><a href="http://127.0.0.1:11000">http://127.0.0.1:11000</a></td><td>Externally accessible URL address, used for open platform issuer issuance or as a fallback for file service</td></tr><tr><td>MONGO_URL</td><td>-</td><td>Database service address</td></tr><tr><td>REDIS_URL</td><td>-</td><td>Redis service address</td></tr><tr><td>MINIO_URL</td><td>-</td><td>File service address (minio)</td></tr><tr><td>MINIO_USER</td><td>-</td><td>File service username</td></tr><tr><td>MINIO_PASS</td><td>-</td><td>File service password</td></tr><tr><td>MINIO_BUCKET_NAME</td><td>tailchat</td><td>File service bucket name</td></tr><tr><td>MINIO_PATH_STYLE</td><td>"Path"</td><td>Whether to use path-style S3 communication format, <code>Path</code> for <code>Path Style</code>, <code>VirtualHosted</code> for <code>Virtual hosted style</code></td></tr><tr><td>SMTP_SENDER</td><td>-</td><td>Mail service sender (Example: <code>&quot;Tailchat&quot; example@163.com</code>)</td></tr><tr><td>SMTP_URI</td><td>-</td><td>Mail service connection address (Example: <code>smtp://username:password@smtp.example.com/?pool=true</code>)</td></tr><tr><td>FILE_LIMIT</td><td>1048576</td><td>File/image upload size limit, default is 1m, please enter a number (Unit: bytes)</td></tr><tr><td>EMAIL_VERIFY</td><td>-</td><td>Enable email verification, if "1" or "true" then email verification control is added during registration</td></tr><tr><td>DISABLE_LOGGER</td><td>-</td><td>Disable log output, if "1" or "true" log is closed during operation</td></tr><tr><td>DISABLE_USER_REGISTER</td><td>-</td><td>Disable user registration function, if "1" or "true" this function is closed</td></tr><tr><td>DISABLE_GUEST_LOGIN</td><td>-</td><td>Disable user guest login function, if "1" or "true" this function is closed</td></tr><tr><td>DISABLE_CREATE_GROUP</td><td>-</td><td>Disable user group creation function, if "1" or "true" this function is closed</td></tr><tr><td>DISABLE_PLUGIN_STORE</td><td>-</td><td>Hide user plugin center function, if "1" or "true" this function is closed</td></tr><tr><td>DISABLE_ADD_FRIEND</td><td>-</td><td>Hide user add friend function, if "1" or "true" this function is closed</td></tr></tbody></table><pre><code class="lang-bash">docker-compose down --rmi all
+docker compose -f docker-compose.yml -f admin.yml up -d</code></pre>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">Tag:<a href="../tag/Configure/index.html">Configure</a>, <a href="../tag/Tailchat/index.html">Tailchat</a>, <a href="../tag/Easily-Expandable/index.html">Easily Expandable</a>, <a href="../tag/Instant-Chat-Application/index.html">Instant Chat Application</a></p>
+            <p>Original link:https://enblog.fuyiran.link/Technology/13.html</p>
+            <p>Copyright: All posts on this blog, unless otherwise stated, are published using the<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> license agreement. Please indicate the source for reprinting Fu Speaking (<a href="../index.html" target="_blank">enblog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-13" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-13" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">Cancel the comment</a>            </div>
+
+            <h3 id="response">Add a new comment.</h3>
+            <form method="post" action="13.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required"> Name</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">Website</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">Content</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">Submit comment.</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="12.html" title="How to Deploy umami - A Simple but Useful Web Traffic Analytics Tool">How to Deploy umami - A Simple but Useful Web Traffic Analytics Tool</a></li>
+        <li>下一篇: <a href="14.html" title="How to Deploy a Web Version of a Retro DOS Game Library—Play 1898 Games">How to Deploy a Web Version of a Retro DOS Game Library—Play 1898 Games</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">Recent posts</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare : Personal Bookmark Navigation</a></li><li><a href="46.html">OneNav: A Personalized Bookmark Management System</a></li><li><a href="45.html">rss-reader An RSS online viewer for instant messaging on web sites</a></li><li><a href="44.html">TangSengDaoDao, An Open-Source Instant Messaging Software</a></li><li><a href="43.html">Habitica: Using Games to Cultivate Your Habits</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Recent replies</h3>
+            <ul class="widget-list">
+                                                    <li>
+                        <a href="5.html#comment-4">Adonis142857</a>: Thanks for the advice                    </li>
+                                    <li>
+                        <a href="43.html#comment-3">guset</a>: great                    </li>
+                                    <li>
+                        <a href="5.html#comment-2">坛友</a>: I 'do something' on the fly，这个表示...                    </li>
+                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Category</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">Life</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">Study</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">Technology</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Archive</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Other</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://blog.fuyiran.link/Technology/13.html">简体中文</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">Login</a>
+                    </li>
+                                <li><a href="../feed/index.rss">RSS for posts</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">Fu Speaking</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            Total reads of this site <span id="busuanzi_value_site_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            Total reads of this article <span id="busuanzi_value_page_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            Visitors of this site <span id="busuanzi_value_site_uv"></span> times<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'The site ran for <label class="year">0</label> year <label class="month">0</label> month <label class="day">0</label> day <label class="hour">0</label> hour <label class="minute">0</label> minute <label class="second">0</label> second',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/Cloudreve/"
+>
+<title type="text">Fu Speaking - Cloudreve</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-06T10:26:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/Cloudreve/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/Cloudreve/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Cloudreve/" />
+<entry>
+<title type="html"><![CDATA[Building Your Own Cloud Storage? Try Cloudreve]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/19.html" />
+<id>http://enblog.fuyiran.link/Technology/19.html</id>
+<updated>2023-08-06T10:26:00+08:00</updated>
+<published>2023-08-06T10:26:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Cloudreve is a suitable network disk system for both personal and public use, suppor...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/19.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Cloudreve is a suitable network disk system for both personal and public use, supporting a variety of cloud storage platforms, such as Qiniu, OSS, COS, Upyun, OneDrive, S3. Users do not need to worry about the physical storage method during actual use. It can be used to build personal network disks, file sharing systems, as well as public cloud systems for groups of various sizes.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/19.html" title="Building Your Own Cloud Storage? Try Cloudreve">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/19.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Cloudreve/" thr:count="0"/>
+</entry>
+</feed>

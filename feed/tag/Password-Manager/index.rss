@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Password Manager</title>
+<link>http://enblog.fuyiran.link/tag/Password-Manager/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Password-Manager/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Fri, 11 Aug 2023 00:11:00 +0800</lastBuildDate>
+<pubDate>Fri, 11 Aug 2023 00:11:00 +0800</pubDate>
+<item>
+<title>Self-Deploying an Excellent Password Manager ~ Bitwarden</title>
+<link>http://enblog.fuyiran.link/Technology/28.html</link>
+<guid>http://enblog.fuyiran.link/Technology/28.html</guid>
+<pubDate>Fri, 11 Aug 2023 00:11:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Bitwarden is an open-source password management tool, similar to SafeInCloud, 1Passw...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Bitwarden is an open-source password management tool, similar to SafeInCloud, 1Password, and others. Its official server side is developed using .Net, browser plugins and desktop applications are written in Javascript, while mobile applications are implemented in C#. The system's database uses mssql, and since it occupies a large amount of memory, a machine deploying this system must have at least 3GB of memory.<br>However, the good news is that someone has implemented Bitwarden using Rust and provided a Docker image, reducing the machine configuration requirements, and some paid features in the official version can be used for free in this open-source implementation. This article uses vaultwarden to configure Bitwarden.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/28.html" title="Self-Deploying an Excellent Password Manager ~ Bitwarden">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/28.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Password-Manager/</wfw:commentRss>
+</item>
+</channel>
+</rss>

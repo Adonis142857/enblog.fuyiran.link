@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>How to Deploy Uptime Kuma - A Multi-faceted Monitoring Tool, Not Limited to Websites - Fu Speaking</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="0772f63d-fe5c-4824-b51f-9844a604f1a6"></script>
+    
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="Introduction:Uptime Kuma, a monitoring tool that brings you peace of mind, can monitor websites, ..." />
+<meta name="keywords" content="Configure,Uptime Kuma,Online condition monitoring,Monitoring tools" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="How to Deploy Uptime Kuma - A Multi-faceted Monitoring Tool, Not Limited to Websites &raquo; Fu Speaking &raquo; RSS 2.0" href="../feed/Technology/15.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="How to Deploy Uptime Kuma - A Multi-faceted Monitoring Tool, Not Limited to Websites &raquo; Fu Speaking &raquo; RSS 1.0" href="../feed/rss/Technology/15.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="How to Deploy Uptime Kuma - A Multi-faceted Monitoring Tool, Not Limited to Websites &raquo; Fu Speaking &raquo; ATOM 1.0" href="../feed/atom/Technology/15.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-15'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-15'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-15'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _ph7z8 = ''///*'PM'*/'PM'
++''///*'g4o'*/'g4o'
++//'u'
+'c'+'4'//'phW'
++//'DVx'
+'180'+//'iR0'
+'1'+'9'//'t'
++//'P'
+'e'+'9'//'8o'
++//'t'
+'78'+/* 'qdx'//'qdx' */''+//'wkX'
+'9'+'379'//'Zm'
++//'DGn'
+'fd'+'b'//'BgR'
++'9'//'npL'
++'0b'//'i'
++'43'//'d'
++/* 'Sz'//'Sz' */''+//'G'
+'44'+'E4'//'E4'
++'4'//'WP'
++'6'//'Gpy'
++'ok7'//'ok7'
++'8'//'q'
++'4d1'//'aD'
++//'PTC'
+'PTC'+'Kx'//'Kx'
++''///*'2C'*/'2C'
++//'8i'
+'8i'+'e'//'H4'
+, _7lhId = [[25,27],[27,30],[31,34],[31,33],[31,33]];
+    
+    for (var i = 0; i < _7lhId.length; i ++) {
+        _ph7z8 = _ph7z8.substring(0, _7lhId[i][0]) + _ph7z8.substring(_7lhId[i][1]);
+    }
+
+    return _ph7z8;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" />    <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?4265cd900bfa19d6c09c5dcc2b0976d8";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+</head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">Fu Speaking</a>
+                    <p class="description">Join me as we explore the world from a fresh perspective. Here, you will find unique analysis of the latest tech news, in-depth records of learning processes, distinctive deep thoughts, and practical resource sharing. Whether you're a student, tech enthusiast, or an explorer seeking direction in life, I believe you'll find what you need here. Together, let's learn and co-create the future.</p>
+                            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">Search keywords.</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="Enter keywords to search:"/>
+                    <button type="submit" class="submit">search</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">Index page</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row">
+
+    
+    
+
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="15.html">How to Deploy Uptime Kuma - A Multi-faceted Monitoring Tool, Not Limited to Websites</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                Author:<a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">Adonis142857</a>
+            </li>
+            <li>Time:                <time datetime="2023-08-03T18:12:00+08:00" itemprop="datePublished">2023-08-03</time>
+            </li>
+            <li>Category:<a href="../category/Technology/index.html">Technology</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>Introduction:</h2><p>Uptime Kuma, a monitoring tool that brings you peace of mind, can monitor websites, databases, Docker containers, and even Steam game servers. It integrates nearly 50 notification methods for real-time status updates, allowing direct configuration of proxies and reverse proxies without the need for tedious installation, making usage more relaxed.</p><!--more--><h2>Effect Images:</h2><p><img src="https://pic.imgdb.cn/item/64cb74341ddac507ccda5e68.jpg" alt="" title=""><br><img src="https://pic.imgdb.cn/item/64cb744c1ddac507ccda93d0.jpg" alt="" title=""></p><h2>Disadvantages:</h2><p>Suitable for personal use, you can share the interface for monitoring without the need to log in, but it is not possible to configure a user system. Only one administrator account can be used for management.</p><h2>Deployment Method One: Using Docker Installation</h2><h3>Step One: Update Sources</h3><p><strong>Ubuntu/Debian:</strong></p><pre><code class="lang-bash">apt update -y &amp;&amp; apt upgrade -y</code></pre><p><strong>Centos:</strong></p><pre><code class="lang-bash">yum update -y &amp;&amp; yum upgrade -y</code></pre><h3>Step Two: Install Docker</h3><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sh ./get-docker.sh</code></pre><h3>Step Three: Deployment</h3><pre><code class="lang-bash">docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:1</code></pre><p>After deployment, you can access <code>http://&lt;your-ip&gt;:8090</code> to access the web interface.</p><h2>Deployment Method Two: Installation from Source Code</h2><h3>Step One: Update Sources and Install Dependencies</h3><p><strong>Ubuntu/Debian:</strong></p><pre><code class="lang-bash">apt update -y &amp;&amp; apt upgrade -y 
+sudo apt install git -y
+sudo apt install curl -y    </code></pre><p><strong>Centos:</strong></p><pre><code class="lang-bash">yum update -y &amp;&amp; yum upgrade -y   
+sudo yum install git -y
+sudo yum install curl -y</code></pre><h3>Step Two: Install Node.js</h3><p>Uptime Kuma requires Node.js 14, 16, 18, or 20.4. Here, I chose to install Node.js 16 as an example.</p><p>Run the following commands to install Node.js 16:</p><p><strong>Ubuntu/Debian:</strong></p><pre><code class="lang-bash">curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs</code></pre><p><strong>Centos:</strong></p><pre><code class="lang-bash">curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
+sudo yum install -y nodejs</code></pre><p>Verify the installation of Node.js and npm:</p><pre><code class="lang-bash">node -v
+npm -v</code></pre><h3>Step Three: Clone Repository</h3><pre><code class="lang-bash">git clone https://github.com/louislam/uptime-kuma.git</code></pre><h3>Step Four: Set Up Uptime Kuma</h3><pre><code class="lang-bash">cd uptime-kuma
+npm run setup</code></pre><h3>Step Five: Install and Configure PM2</h3><pre><code class="lang-bash">sudo npm install pm2 -g
+pm2 install pm2-logrotate</code></pre><h3>Step Six: Start Uptime Kuma with PM2</h3><pre><code class="lang-bash">pm2 start server/server.js --name uptime-kuma</code></pre><p>After deployment, you can access <code>http://&lt;your-ip&gt;:3001</code> to access the web interface.</p><h3>Step Seven: Configure PM2 for Auto-Start</h3><p>If you want Uptime Kuma to run automatically at system startup, execute the following commands:</p><pre><code class="lang-bash">pm2 save
+pm2 startup</code></pre>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">Tag:<a href="../tag/Configure/index.html">Configure</a>, <a href="../tag/Uptime-Kuma/index.html">Uptime Kuma</a>, <a href="../tag/Online-condition-monitoring/index.html">Online condition monitoring</a>, <a href="../tag/Monitoring-tools/index.html">Monitoring tools</a></p>
+            <p>Original link:http://enblog.fuyiran.link/Technology/15.html</p>
+            <p>Copyright: All posts on this blog, unless otherwise stated, are published using the<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> license agreement. Please indicate the source for reprinting Fu Speaking (<a href="../index.html" target="_blank">enblog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-15" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-15" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">Cancel the comment</a>            </div>
+
+            <h3 id="response">Add a new comment.</h3>
+            <form method="post" action="15.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required"> Name</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">Website</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">Content</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">Submit comment.</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="14.html" title="How to Deploy a Web Version of a Retro DOS Game Library—Play 1898 Games">How to Deploy a Web Version of a Retro DOS Game Library—Play 1898 Games</a></li>
+        <li>下一篇: <a href="16.html" title="How to build YOURLS - A URL Shortening Platform">How to build YOURLS - A URL Shortening Platform</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">Recent posts</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare : Personal Bookmark Navigation</a></li><li><a href="46.html">OneNav: A Personalized Bookmark Management System</a></li><li><a href="45.html">rss-reader An RSS online viewer for instant messaging on web sites</a></li><li><a href="44.html">TangSengDaoDao, An Open-Source Instant Messaging Software</a></li><li><a href="43.html">Habitica: Using Games to Cultivate Your Habits</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Recent replies</h3>
+            <ul class="widget-list">
+                                                    <li>
+                        <a href="5.html#comment-4">Adonis142857</a>: Thanks for the advice                    </li>
+                                    <li>
+                        <a href="43.html#comment-3">guset</a>: great                    </li>
+                                    <li>
+                        <a href="5.html#comment-2">坛友</a>: I 'do something' on the fly，这个表示...                    </li>
+                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Category</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">Life</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">Study</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">Technology</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Archive</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Other</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="http://blog.fuyiran.link/Technology/15.html">简体中文</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">Login</a>
+                    </li>
+                                <li><a href="../feed/index.rss">RSS for posts</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">Fu Speaking</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            Total reads of this site <span id="busuanzi_value_site_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            Total reads of this article <span id="busuanzi_value_page_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            Visitors of this site <span id="busuanzi_value_site_uv"></span> times<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'The site ran for <label class="year">0</label> year <label class="month">0</label> month <label class="day">0</label> day <label class="hour">0</label> hour <label class="minute">0</label> minute <label class="second">0</label> second',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

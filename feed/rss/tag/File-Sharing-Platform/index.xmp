@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/File-Sharing-Platform/">
+<title>Fu Speaking - File Sharing Platform</title>
+<link>http://enblog.fuyiran.link/tag/File-Sharing-Platform/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/25.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/21.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/25.html">
+<title>FileCodeBox ~ File Delivery Cabinet, Retrieve Files Like Retrieving a Parcel</title>
+<link>http://enblog.fuyiran.link/Technology/25.html</link>
+<dc:date>2023-08-09T12:20:00+08:00</dc:date>
+<description>Introduction:In previous articles, I wrote about the deployment plan for Pingvin Share. Many friends recommended FileCodeBox to me. After deploying and using it, I feel it is indeed very good, so I wrote a deployment tutorial to help everyone deploy.Comparison: FileCodeBoxPingvin ShareEasy Upload✅✅Prevent Brute Force/Pickup Code Abuse✅❌Password Sharing✅✅Anonymous Sharing✅✅Admin Panel✅✅Two-Step Login Verification❌✅Aliyun OSS Integration✅❌File Security Monitoring❌✅Ease of Deployment (More stars = Easier)🌟🌟🌟🌟🌟🌟🌟🌟🌟[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/21.html">
+<title>Build Your Own File Sharing Platform? You Might Need Pingvin Share</title>
+<link>http://enblog.fuyiran.link/Technology/21.html</link>
+<dc:date>2023-08-07T10:14:00+08:00</dc:date>
+<description>Introduction:Do you really trust handing your files over to third-party file platforms? Try Pingvin Share insteadEasy to Build - Easily set up your own file sharing platform using a private serverComplete Privacy - Your files belong only to you! No need to put them on third-party file platformsFocused on Protection - Supports two-step verification, your files are solely yoursMore Secure - More Secure - Fear of Trojan Horse when you send it to your friends? No problem, Pingvin Share supports mounting clamav to make your storage more secure.[...]</description>
+</item>
+</rdf:RDF>

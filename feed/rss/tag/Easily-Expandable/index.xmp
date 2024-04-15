@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://enblog.fuyiran.link/feed/rss/tag/Easily-Expandable/">
+<title>Fu Speaking - Easily Expandable</title>
+<link>https://enblog.fuyiran.link/tag/Easily-Expandable/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://enblog.fuyiran.link/Technology/13.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://enblog.fuyiran.link/Technology/13.html">
+<title>How to Configure an Easily Expandable Instant Chat Application — Tailchat</title>
+<link>https://enblog.fuyiran.link/Technology/13.html</link>
+<dc:date>2023-08-03T10:53:00+08:00</dc:date>
+<description>Introduction:Tailchat—An open-source and easily expandable instant chat application, making communication more free, flexible, and fun[...]</description>
+</item>
+</rdf:RDF>

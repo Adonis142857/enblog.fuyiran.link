@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Comments to Fu Speaking - Habitica: Using Games to Cultivate Your Habits</title>
+<link>http://enblog.fuyiran.link/Technology/43.html</link>
+<atom:link href="http://enblog.fuyiran.link/feed/Technology/43.html" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description>Introduction:Habitica is an open-source habit-building program that treats your life as a role-pl...</description>
+<lastBuildDate>Sun, 12 Nov 2023 17:50:28 +0800</lastBuildDate>
+<pubDate>Sun, 12 Nov 2023 17:50:28 +0800</pubDate>
+<item>
+<title>guset</title>
+<link>http://enblog.fuyiran.link/Technology/43.html#comment-3</link>
+<guid>http://enblog.fuyiran.link/Technology/43.html#comment-3</guid>
+<pubDate>Sun, 12 Nov 2023 17:50:28 +0800</pubDate>
+<dc:creator>guset</dc:creator>
+<description><![CDATA[great]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<p>great</p>
+]]></content:encoded>
+<comments>http://enblog.fuyiran.link/Technology/43.html#comment-3#comments</comments>
+</item>
+</channel>
+</rss>

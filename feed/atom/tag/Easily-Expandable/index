@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="https://enblog.fuyiran.link/tag/Easily-Expandable/"
+>
+<title type="text">Fu Speaking - Easily Expandable</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-03T10:53:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://enblog.fuyiran.link/tag/Easily-Expandable/" />
+<id>https://enblog.fuyiran.link/feed/atom/tag/Easily-Expandable/</id>
+<link rel="self" type="application/atom+xml" href="https://enblog.fuyiran.link/feed/atom/tag/Easily-Expandable/" />
+<entry>
+<title type="html"><![CDATA[How to Configure an Easily Expandable Instant Chat Application — Tailchat]]></title>
+<link rel="alternate" type="text/html" href="https://enblog.fuyiran.link/Technology/13.html" />
+<id>https://enblog.fuyiran.link/Technology/13.html</id>
+<updated>2023-08-03T10:53:00+08:00</updated>
+<published>2023-08-03T10:53:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Tailchat—An open-source and easily expandable instant chat application, making commu...]]></summary>
+<content type="html" xml:base="https://enblog.fuyiran.link/Technology/13.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p><strong>Tailchat—An open-source and easily expandable instant chat application, making communication more free, flexible, and fun</strong></p><p class="more"><a href="https://enblog.fuyiran.link/Technology/13.html" title="How to Configure an Easily Expandable Instant Chat Application — Tailchat">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://enblog.fuyiran.link/Technology/13.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://enblog.fuyiran.link/feed/atom/tag/Easily-Expandable/" thr:count="0"/>
+</entry>
+</feed>

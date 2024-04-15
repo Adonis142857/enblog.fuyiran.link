@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - RSSHub</title>
+<link>http://enblog.fuyiran.link/tag/RSSHub/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/RSSHub/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Tue, 15 Aug 2023 23:59:00 +0800</lastBuildDate>
+<pubDate>Tue, 15 Aug 2023 23:59:00 +0800</pubDate>
+<item>
+<title>RSSHub ~ RSS Generator</title>
+<link>http://enblog.fuyiran.link/Technology/38.html</link>
+<guid>http://enblog.fuyiran.link/Technology/38.html</guid>
+<pubDate>Tue, 15 Aug 2023 23:59:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:RSSHub is an open-source, user-friendly, and easily extendable RSS generator. It can...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>RSSHub is an open-source, user-friendly, and easily extendable RSS generator. It can generate RSS feeds for any unusual content. With the power of the open-source community, RSSHub is rapidly developing and has currently adapted to thousands of contents from hundreds of websites.</p><p>RSSHub Source URL: <a href="https://docs.rsshub.app/routes">https://docs.rsshub.app/routes</a></p><p class="more"><a href="http://enblog.fuyiran.link/Technology/38.html" title="RSSHub ~ RSS Generator">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/38.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/RSSHub/</wfw:commentRss>
+</item>
+</channel>
+</rss>

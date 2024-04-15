@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - FileCodeBox</title>
+<link>http://enblog.fuyiran.link/tag/FileCodeBox/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/FileCodeBox/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Wed, 09 Aug 2023 12:20:00 +0800</lastBuildDate>
+<pubDate>Wed, 09 Aug 2023 12:20:00 +0800</pubDate>
+<item>
+<title>FileCodeBox ~ File Delivery Cabinet, Retrieve Files Like Retrieving a Parcel</title>
+<link>http://enblog.fuyiran.link/Technology/25.html</link>
+<guid>http://enblog.fuyiran.link/Technology/25.html</guid>
+<pubDate>Wed, 09 Aug 2023 12:20:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:In previous articles, I wrote about the deployment plan for Pingvin Share. Many frie...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>In previous articles, I wrote about the deployment plan for Pingvin Share. Many friends recommended FileCodeBox to me. After deploying and using it, I feel it is indeed very good, so I wrote a deployment tutorial to help everyone deploy.</p><h3>Comparison:</h3><table><thead><tr><th> </th><th>FileCodeBox</th><th>Pingvin Share</th></tr></thead><tbody><tr><td>Easy Upload</td><td>✅</td><td>✅</td></tr><tr><td>Prevent Brute Force/Pickup Code Abuse</td><td>✅</td><td>❌</td></tr><tr><td>Password Sharing</td><td>✅</td><td>✅</td></tr><tr><td>Anonymous Sharing</td><td>✅</td><td>✅</td></tr><tr><td>Admin Panel</td><td>✅</td><td>✅</td></tr><tr><td>Two-Step Login Verification</td><td>❌</td><td>✅</td></tr><tr><td>Aliyun OSS Integration</td><td>✅</td><td>❌</td></tr><tr><td>File Security Monitoring</td><td>❌</td><td>✅</td></tr><tr><td>Ease of Deployment (More stars = Easier)</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr></tbody></table><p class="more"><a href="http://enblog.fuyiran.link/Technology/25.html" title="FileCodeBox ~ File Delivery Cabinet, Retrieve Files Like Retrieving a Parcel">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/25.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/FileCodeBox/</wfw:commentRss>
+</item>
+</channel>
+</rss>

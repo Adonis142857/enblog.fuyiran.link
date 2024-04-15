@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - KVM</title>
+<link>http://enblog.fuyiran.link/tag/KVM/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/KVM/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Sun, 30 Jul 2023 08:25:00 +0800</lastBuildDate>
+<pubDate>Sun, 30 Jul 2023 08:25:00 +0800</pubDate>
+<item>
+<title>How to Configure Fail2Ban to Block Malicious Logins</title>
+<link>http://enblog.fuyiran.link/Technology/4.html</link>
+<guid>http://enblog.fuyiran.link/Technology/4.html</guid>
+<pubDate>Sun, 30 Jul 2023 08:25:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Fail2Ban is a tool used to ban malicious logins that result from multiple authentica...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Fail2Ban is a tool used to ban malicious logins that result from multiple authentication errors. By scanning log files (such as <code>/var/log/auth.log</code>), this tool can identify and ban IP addresses with excessive failed login attempts. It accomplishes this by updating the system's firewall rules, denying new connections from these IP addresses. Although Fail2Ban can reduce the frequency of erroneous authentication attempts, it cannot entirely eliminate the risks posed by weak authentication. It's recommended to set up two-factor or public key/private key authentication mechanisms to further enhance security.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/4.html" title="How to Configure Fail2Ban to Block Malicious Logins">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/4.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/KVM/</wfw:commentRss>
+</item>
+<item>
+<title>How to Batch Create KVM Shared IP VPS</title>
+<link>http://enblog.fuyiran.link/Technology/2.html</link>
+<guid>http://enblog.fuyiran.link/Technology/2.html</guid>
+<pubDate>Sat, 29 Jul 2023 08:50:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:When we have a high-performance server that we are not fully utilizing ourselves, we...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>When we have a high-performance server that we are not fully utilizing ourselves, we can consider creating a shared IP VPS for segmentation and selling to others. Using the script introduced in this article to create, each partitioned server can be independent of each other and not interfere with each other. A panel is also provided to manage the partitioned shared IP VPS.</p><h2>Environmental requirements:</h2><ul><li>System requirements: Debian 8+ (Debian 11 is recommended over Debian 12, as the latter is a beta version, while Debian 11 is the stable release)</li><li>Hardware requirements: A server with at least a dual-core processor, 2 GB of memory, a 64-bit architecture, and at least 20 GB of hard drive space</li><li>Requirements for hardware that can run KVM: VM-X or AMD-V support (supported by some VPS and all dedicated servers)</li><li>If the hardware or system requirements are not met, you can use LXD to batch create LXC containers</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/2.html" title="How to Batch Create KVM Shared IP VPS">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/2.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/KVM/</wfw:commentRss>
+</item>
+</channel>
+</rss>

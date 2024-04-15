@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Lightweight</title>
+<link>http://enblog.fuyiran.link/tag/Lightweight/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Lightweight/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Thu, 17 Aug 2023 23:26:00 +0800</lastBuildDate>
+<pubDate>Thu, 17 Aug 2023 23:26:00 +0800</pubDate>
+<item>
+<title>WeekToDo : A Minimalist To-Do List</title>
+<link>http://enblog.fuyiran.link/Technology/42.html</link>
+<guid>http://enblog.fuyiran.link/Technology/42.html</guid>
+<pubDate>Thu, 17 Aug 2023 23:26:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:WeekToDo is a privacy-focused to-do list. Users can schedule tasks and projects thro...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>WeekToDo is a privacy-focused to-do list. Users can schedule tasks and projects through the to-do list and calendar. It offers clients on Windows, Mac, and Linux operating systems and can also be used directly online.</p><h2>Features:</h2><ul><li>Supports cross-platform use</li><li>Supports light and dark mode switching</li><li>Customizable to-do list</li><li>Drag and drop functionality</li><li>Multilingual support</li><li>Sub-task functionality</li><li>Markdown support</li><li>Customizable user interface</li><li>Local storage</li><li>Task color marking</li><li>Task timing settings</li><li>Recurring tasks</li><li>Notifications and reminder functionality</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/42.html" title="WeekToDo : A Minimalist To-Do List">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/42.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Lightweight/</wfw:commentRss>
+</item>
+<item>
+<title>Record Inspiration Anytime, Write Notes Anywhere! Memos - A Handy Online Notepad Tool, and Also a Small Community</title>
+<link>http://enblog.fuyiran.link/Technology/34.html</link>
+<guid>http://enblog.fuyiran.link/Technology/34.html</guid>
+<pubDate>Sun, 13 Aug 2023 23:55:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Memos is a very practical online notepad application that allows you to record your ...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Memos is a very practical online notepad application that allows you to record your thoughts, inspirations, and notes anytime and anywhere, without worrying about losing your notepad. At the same time, it's a lightweight community where you can share your life with everyone.</p><table><thead><tr><th> </th><th><a href="https://enblog.fuyiran.link/Technology/27.html">PaoPao</a></th><th><a href="https://enblog.fuyiran.link/Technology/34.html">Memos</a></th></tr></thead><tbody><tr><td>Management System</td><td>❌</td><td>✅</td></tr><tr><td>Friend System</td><td>✅</td><td>❌</td></tr><tr><td>Following System</td><td>✅</td><td>❌</td></tr><tr><td>User Registration</td><td>✅</td><td>❌</td></tr><tr><td>Record Location in Posts</td><td>✅</td><td>❌</td></tr><tr><td>SSO Single Sign-On</td><td>❌</td><td>✅</td></tr><tr><td>Upload Attachments</td><td>Photos/Videos Only</td><td>No Limit</td></tr><tr><td>Interface Aesthetics</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr><tr><td>Deployment Difficulty</td><td>😈😈😈😈😈</td><td>😈😈😈</td></tr></tbody></table><p class="more"><a href="http://enblog.fuyiran.link/Technology/34.html" title="Record Inspiration Anytime, Write Notes Anywhere! Memos - A Handy Online Notepad Tool, and Also a Small Community">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/34.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Lightweight/</wfw:commentRss>
+</item>
+<item>
+<title>A Step Further, Personal Navigation Page Configurable Without a Server</title>
+<link>http://enblog.fuyiran.link/Technology/32.html</link>
+<guid>http://enblog.fuyiran.link/Technology/32.html</guid>
+<pubDate>Sun, 13 Aug 2023 00:37:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:CF-Worker-Dir is a cloud function application suitable for the Cloudflare Worker pla...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>CF-Worker-Dir is a cloud function application suitable for the Cloudflare Worker platform. You can use it to build your own navigation page within a minute, and even reserve an interface to help you sell your domain name. If your domain name has not yet been set up with a website, why not make use of CF-Worker-Dir to prevent your domain from being wasted? 😉</p><table><thead><tr><th> </th><th><a href="https://enblog.fuyiran.link/Technology/32.html">CF-Worker-Dir</a></th><th><a href="https://enblog.fuyiran.link/Technology/31.html">LinkStack</a></th></tr></thead><tbody><tr><td>Customization Level</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>Deployment Difficulty</td><td>😈😈</td><td>😈😈😈😈</td></tr></tbody></table><p class="more"><a href="http://enblog.fuyiran.link/Technology/32.html" title="A Step Further, Personal Navigation Page Configurable Without a Server">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/32.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Lightweight/</wfw:commentRss>
+</item>
+<item>
+<title>LinkStack is a great choice for deploying a beautiful and lightweight link aggregator page!</title>
+<link>http://enblog.fuyiran.link/Technology/31.html</link>
+<guid>http://enblog.fuyiran.link/Technology/31.html</guid>
+<pubDate>Sat, 12 Aug 2023 12:28:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:LinkStack, an open-source link aggregation page, is known as the ultimate link manag...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>LinkStack, an open-source link aggregation page, is known as the ultimate link management solution. It allows for effective online management and link sharing, enabling users to overcome the limitation of only being able to add one link on social media platforms. Users can customize the appearance of LinkStack instances by theme, and its high customizability is its advantage.</p><table><thead><tr><th> </th><th><a href="https://enblog.fuyiran.link/Technology/32.html">CF-Worker-Dir</a></th><th><a href="https://enblog.fuyiran.link/Technology/31.html">LinkStack</a></th></tr></thead><tbody><tr><td>自定义化程度</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈</td><td>😈😈😈😈</td></tr></tbody></table><p class="more"><a href="http://enblog.fuyiran.link/Technology/31.html" title="LinkStack is a great choice for deploying a beautiful and lightweight link aggregator page!">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/31.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Lightweight/</wfw:commentRss>
+</item>
+<item>
+<title>A Step Further, Short Domains Configurable Without Servers</title>
+<link>http://enblog.fuyiran.link/Technology/29.html</link>
+<guid>http://enblog.fuyiran.link/Technology/29.html</guid>
+<pubDate>Fri, 11 Aug 2023 11:23:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:020 Short Link, a simple and free short link platform implemented using Cloudflare W...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>020 Short Link, a simple and free short link platform implemented using Cloudflare Worker</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/29.html" title="A Step Further, Short Domains Configurable Without Servers">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/29.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Lightweight/</wfw:commentRss>
+</item>
+<item>
+<title>Self-Deploying an Excellent Password Manager ~ Bitwarden</title>
+<link>http://enblog.fuyiran.link/Technology/28.html</link>
+<guid>http://enblog.fuyiran.link/Technology/28.html</guid>
+<pubDate>Fri, 11 Aug 2023 00:11:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Bitwarden is an open-source password management tool, similar to SafeInCloud, 1Passw...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Bitwarden is an open-source password management tool, similar to SafeInCloud, 1Password, and others. Its official server side is developed using .Net, browser plugins and desktop applications are written in Javascript, while mobile applications are implemented in C#. The system's database uses mssql, and since it occupies a large amount of memory, a machine deploying this system must have at least 3GB of memory.<br>However, the good news is that someone has implemented Bitwarden using Rust and provided a Docker image, reducing the machine configuration requirements, and some paid features in the official version can be used for free in this open-source implementation. This article uses vaultwarden to configure Bitwarden.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/28.html" title="Self-Deploying an Excellent Password Manager ~ Bitwarden">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/28.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Lightweight/</wfw:commentRss>
+</item>
+<item>
+<title>Cryptgeon - A Lightweight Secure Message and Document Sharing Platform</title>
+<link>http://enblog.fuyiran.link/Technology/24.html</link>
+<guid>http://enblog.fuyiran.link/Technology/24.html</guid>
+<pubDate>Wed, 09 Aug 2023 00:12:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Cryptgeon is a secure, open-source lightweight platform for sharing encrypted messag...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Cryptgeon is a secure, open-source lightweight platform for sharing encrypted messages and documents, inspired by PrivNote.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/24.html" title="Cryptgeon - A Lightweight Secure Message and Document Sharing Platform">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/24.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Lightweight/</wfw:commentRss>
+</item>
+</channel>
+</rss>

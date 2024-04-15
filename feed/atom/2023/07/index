@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/2023/07/"
+>
+<title type="text">Fu Speaking - 2023 - 7</title>
+<subtitle type="text">Join me as we explore the world from a fresh perspective. Here, you will find unique analysis of the latest tech news, in-depth records of learning processes, distinctive deep thoughts, and practical resource sharing. Whether you're a student, tech enthusiast, or an explorer seeking direction in life, I believe you'll find what you need here. Together, let's learn and co-create the future.</subtitle>
+<updated>2023-08-01T10:42:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/2023/07/" />
+<id>http://enblog.fuyiran.link/feed/atom/2023/07/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/2023/07/" />
+<entry>
+<title type="html"><![CDATA[How to Introduce &quot;Busuanzi&quot; to Count Visits in Typecho]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/7.html" />
+<id>http://enblog.fuyiran.link/Technology/7.html</id>
+<updated>2023-08-01T10:42:00+08:00</updated>
+<published>2023-08-01T10:42:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Implementation EffectThe count is not displayed until the visitor data is retrieved.The main site...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/7.html" xml:lang="en-US"><![CDATA[
+<p><strong>Implementation Effect</strong></p><ul><li>The count is not displayed until the visitor data is retrieved.</li><li>The main site only shows the total site page views and the total number of visitors.</li><li>The article section shows the total site page views, total article page views, and total number of visitors.</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/7.html" title="How to Introduce &quot;Busuanzi&quot; to Count Visits in Typecho">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/7.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[How to Create a Web Mailbox Using the Hestia Panel]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/6.html" />
+<id>http://enblog.fuyiran.link/Technology/6.html</id>
+<updated>2023-08-01T00:40:00+08:00</updated>
+<published>2023-08-01T00:40:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Please note: The Hestia Control Panel needs to be installed on a brand-new operating system to en...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/6.html" xml:lang="en-US"><![CDATA[
+<p>Please note: The Hestia Control Panel needs to be installed on a brand-new operating system to ensure normal operation.</p><p>Supported platforms and operating systems:</p><ul><li>Debian: 12, 11 or 10</li><li>Ubuntu: 22.04 LTS, 20.04 LTS<br>Note: Hestia Control Panel does not support 32-bit operating systems!</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/6.html" title="How to Create a Web Mailbox Using the Hestia Panel">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/6.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[How to Use Mirror Sites to Create a Multilingual Typecho Site]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/5.html" />
+<id>http://enblog.fuyiran.link/Technology/5.html</id>
+<updated>2023-07-31T00:34:00+08:00</updated>
+<published>2023-07-31T00:34:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[While attempting to use Typecho to create a bilingual blog, I encountered a problem: I wanted the...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/5.html" xml:lang="en-US"><![CDATA[
+<p>While attempting to use Typecho to create a bilingual blog, I encountered a problem: I wanted the blog to support both Chinese and English languages. However, after some searching, I couldn't find a method to directly implement this function. Therefore, I learned PHP on the fly and tried using the mirror site mode. The blog site is a Chinese site, and the enblog site is an English site. Users can switch between them in the sidebar. This is a crude method, but it's a convenient one for someone like me who isn't very technically proficient. I'm sharing my code here in the hope that it will inspire others to further optimize it.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/5.html" title="How to Use Mirror Sites to Create a Multilingual Typecho Site">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/5.html#comments" thr:count="2" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/2023/07/" thr:count="2"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[How to Configure Fail2Ban to Block Malicious Logins]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/4.html" />
+<id>http://enblog.fuyiran.link/Technology/4.html</id>
+<updated>2023-07-30T08:25:00+08:00</updated>
+<published>2023-07-30T08:25:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Fail2Ban is a tool used to ban malicious logins that result from multiple authentica...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/4.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Fail2Ban is a tool used to ban malicious logins that result from multiple authentication errors. By scanning log files (such as <code>/var/log/auth.log</code>), this tool can identify and ban IP addresses with excessive failed login attempts. It accomplishes this by updating the system's firewall rules, denying new connections from these IP addresses. Although Fail2Ban can reduce the frequency of erroneous authentication attempts, it cannot entirely eliminate the risks posed by weak authentication. It's recommended to set up two-factor or public key/private key authentication mechanisms to further enhance security.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/4.html" title="How to Configure Fail2Ban to Block Malicious Logins">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/4.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[How to Configure Rainmap Lite - Web-based Nmap for Network Scanning]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/3.html" />
+<id>http://enblog.fuyiran.link/Technology/3.html</id>
+<updated>2023-07-30T01:15:00+08:00</updated>
+<published>2023-07-30T01:15:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Rainmap Lite is a responsive web application that allows users to easily launch Nmap...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/3.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Rainmap Lite is a responsive web application that allows users to easily launch Nmap scans from mobile devices, tablets, or web browsers. Unlike its predecessor Rainmap, Rainmap Lite is simpler to deploy and doesn't require special services (such as RabbitMQ, PostgreSQL, Celery, supervisor, etc.). Just install the Django app and add a cron polling task to easily set up a new scan server on any server.</p><h2>Features:</h2><ul><li>Easily launch Nmap scans with a few clicks.</li><li>Responsive interface ensures smooth operation on mobile/tablet devices.</li><li>Send reports via email in all formats.</li><li>View reports from a web browser.</li><li>Schedule scanning tasks.</li><li>Provides dozens of scan profiles for users to choose from.</li><li>Simple installation/setup.</li><li>List items</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/3.html" title="How to Configure Rainmap Lite - Web-based Nmap for Network Scanning">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/3.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[How to Batch Create KVM Shared IP VPS]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/2.html" />
+<id>http://enblog.fuyiran.link/Technology/2.html</id>
+<updated>2023-07-29T08:50:00+08:00</updated>
+<published>2023-07-29T08:50:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:When we have a high-performance server that we are not fully utilizing ourselves, we...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/2.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>When we have a high-performance server that we are not fully utilizing ourselves, we can consider creating a shared IP VPS for segmentation and selling to others. Using the script introduced in this article to create, each partitioned server can be independent of each other and not interfere with each other. A panel is also provided to manage the partitioned shared IP VPS.</p><h2>Environmental requirements:</h2><ul><li>System requirements: Debian 8+ (Debian 11 is recommended over Debian 12, as the latter is a beta version, while Debian 11 is the stable release)</li><li>Hardware requirements: A server with at least a dual-core processor, 2 GB of memory, a 64-bit architecture, and at least 20 GB of hard drive space</li><li>Requirements for hardware that can run KVM: VM-X or AMD-V support (supported by some VPS and all dedicated servers)</li><li>If the hardware or system requirements are not met, you can use LXD to batch create LXC containers</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/2.html" title="How to Batch Create KVM Shared IP VPS">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/2.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[Flarum - A Clean, Elegant, Highly Customizable Forum]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/1.html" />
+<id>http://enblog.fuyiran.link/Technology/1.html</id>
+<updated>2023-07-29T00:27:00+08:00</updated>
+<published>2023-07-29T00:27:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Flarum is an elegant and clean forum, built with PHP. It features a beautiful respon...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/1.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Flarum is an elegant and clean forum, built with PHP. It features a beautiful responsive layout, and its interface is constructed using Mithril. It boasts high customizability and extensibility.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/1.html" title="Flarum - A Clean, Elegant, Highly Customizable Forum">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/1.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+</feed>

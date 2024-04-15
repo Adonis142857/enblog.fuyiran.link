@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Notes</title>
+<link>http://enblog.fuyiran.link/tag/Notes/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Notes/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Sun, 13 Aug 2023 23:55:00 +0800</lastBuildDate>
+<pubDate>Sun, 13 Aug 2023 23:55:00 +0800</pubDate>
+<item>
+<title>Record Inspiration Anytime, Write Notes Anywhere! Memos - A Handy Online Notepad Tool, and Also a Small Community</title>
+<link>http://enblog.fuyiran.link/Technology/34.html</link>
+<guid>http://enblog.fuyiran.link/Technology/34.html</guid>
+<pubDate>Sun, 13 Aug 2023 23:55:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Memos is a very practical online notepad application that allows you to record your ...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Memos is a very practical online notepad application that allows you to record your thoughts, inspirations, and notes anytime and anywhere, without worrying about losing your notepad. At the same time, it's a lightweight community where you can share your life with everyone.</p><table><thead><tr><th> </th><th><a href="https://enblog.fuyiran.link/Technology/27.html">PaoPao</a></th><th><a href="https://enblog.fuyiran.link/Technology/34.html">Memos</a></th></tr></thead><tbody><tr><td>Management System</td><td>❌</td><td>✅</td></tr><tr><td>Friend System</td><td>✅</td><td>❌</td></tr><tr><td>Following System</td><td>✅</td><td>❌</td></tr><tr><td>User Registration</td><td>✅</td><td>❌</td></tr><tr><td>Record Location in Posts</td><td>✅</td><td>❌</td></tr><tr><td>SSO Single Sign-On</td><td>❌</td><td>✅</td></tr><tr><td>Upload Attachments</td><td>Photos/Videos Only</td><td>No Limit</td></tr><tr><td>Interface Aesthetics</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr><tr><td>Deployment Difficulty</td><td>😈😈😈😈😈</td><td>😈😈😈</td></tr></tbody></table><p class="more"><a href="http://enblog.fuyiran.link/Technology/34.html" title="Record Inspiration Anytime, Write Notes Anywhere! Memos - A Handy Online Notepad Tool, and Also a Small Community">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/34.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Notes/</wfw:commentRss>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Temporary-Email/">
+<title>Fu Speaking - Temporary Email</title>
+<link>http://enblog.fuyiran.link/tag/Temporary-Email/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/17.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/17.html">
+<title>Super Simple ~ Deploy Your Own Temporary Email with Forsaken-Mail</title>
+<link>http://enblog.fuyiran.link/Technology/17.html</link>
+<dc:date>2023-08-05T08:03:00+08:00</dc:date>
+<description>Introduction:Forsaken-Mail is an ultra-simple temporary email deployment tool. In my previous articles, I've introduced two methods. One is to use Cloudflare's email forwarding feature to forward emails to your own inbox, but it can only be sent to one email, and the functionality is limited. The other method uses the Hestia panel, which not only has an independent email but can also use this email to send messages.However, some folks only want to use temporary email services and don't need to send emails, just receive them. Is there a simpler solution? Here it is! Today I'll introduce Forsaken-Mail's deployment plan, which is super simple. Just follow the steps.[...]</description>
+</item>
+</rdf:RDF>

@@ -1,0 +1,375 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>How to Configure Fail2Ban to Block Malicious Logins - Fu Speaking</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="0772f63d-fe5c-4824-b51f-9844a604f1a6"></script>
+    
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="Introduction:Fail2Ban is a tool used to ban malicious logins that result from multiple authentica..." />
+<meta name="keywords" content="Configure,Shared IP VPS,KVM" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="How to Configure Fail2Ban to Block Malicious Logins &raquo; Fu Speaking &raquo; RSS 2.0" href="../feed/Technology/4.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="How to Configure Fail2Ban to Block Malicious Logins &raquo; Fu Speaking &raquo; RSS 1.0" href="../feed/rss/Technology/4.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="How to Configure Fail2Ban to Block Malicious Logins &raquo; Fu Speaking &raquo; ATOM 1.0" href="../feed/atom/Technology/4.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-4'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-4'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-4'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _Pm7 = 'Dl'//'Dl'
++'a'//'r6k'
++//'d'
+'d'+'0'//'v'
++''///*'u'*/'u'
++'f04'//'P'
++'2d'//'e1'
++//'hOU'
+'5d4'+//'Pa'
+'847'+//'c'
+'b'+'638'//'7s'
++'3'//'LH'
++'b49'//'177'
++//'Ec'
+'a07'+'d4'//'iR'
++'d1'//'D'
++//'3V'
+'32f'+'6'//'6'
++'4'//'Wrs'
+, _xlA0 = [[0,2],[1,2],[31,32]];
+    
+    for (var i = 0; i < _xlA0.length; i ++) {
+        _Pm7 = _Pm7.substring(0, _xlA0[i][0]) + _Pm7.substring(_xlA0[i][1]);
+    }
+
+    return _Pm7;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" />    <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?4265cd900bfa19d6c09c5dcc2b0976d8";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+</head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">Fu Speaking</a>
+                    <p class="description">Join me as we explore the world from a fresh perspective. Here, you will find unique analysis of the latest tech news, in-depth records of learning processes, distinctive deep thoughts, and practical resource sharing. Whether you're a student, tech enthusiast, or an explorer seeking direction in life, I believe you'll find what you need here. Together, let's learn and co-create the future.</p>
+                            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">Search keywords.</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="Enter keywords to search:"/>
+                    <button type="submit" class="submit">search</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">Index page</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row">
+
+    
+    
+
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="4.html">How to Configure Fail2Ban to Block Malicious Logins</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                Author:<a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">Adonis142857</a>
+            </li>
+            <li>Time:                <time datetime="2023-07-29T16:25:00+08:00" itemprop="datePublished">2023-07-29</time>
+            </li>
+            <li>Category:<a href="../category/Technology/index.html">Technology</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>Introduction:</h2><p>Fail2Ban is a tool used to ban malicious logins that result from multiple authentication errors. By scanning log files (such as <code>/var/log/auth.log</code>), this tool can identify and ban IP addresses with excessive failed login attempts. It accomplishes this by updating the system's firewall rules, denying new connections from these IP addresses. Although Fail2Ban can reduce the frequency of erroneous authentication attempts, it cannot entirely eliminate the risks posed by weak authentication. It's recommended to set up two-factor or public key/private key authentication mechanisms to further enhance security.</p><!--more--><h2>Environment Requirements:</h2><ul><li><p>Python version &gt;= 3.5 or PyPy3</p><pre><code class="lang-bash">python3 --version
+pypy3 --version</code></pre></li><li><p>python-setuptools and python-distutils (or python3-setuptools)</p><p>Try importing these two modules in the Python interpreter to check if they are installed:</p><pre><code class="lang-bash">import setuptools
+import distutils</code></pre><p>No error means successful installation.</p><p>Installation method:</p><pre><code class="lang-bash"># Debian or Ubuntu 
+sudo apt-get install python3-setuptools python3-distutils
+# CentOS or RHEL
+sudo yum install python3-setuptools  </code></pre><p>(Note: In most cases, on CentOS or RHEL systems, distutils is typically automatically installed during Python installation.)</p></li><li><p>(Optional) pyinotify &gt;= 0.8.3, might require:</p><ul><li>Linux version &gt;= 2.6.13</li></ul></li><li><p>(Optional) systemd &gt;= 204 bound with python:</p><ul><li>python-systemd package</li></ul></li><li>(Optional) dnspython</li></ul><h2>Deployment Method:</h2><h3>Step 1: Download the source code</h3><ul><li><p>You can directly download the tar file and then extract it:</p><pre><code class="lang-bash">tar xvfj fail2ban-master.tar.bz2
+cd fail2ban-master</code></pre></li><li><p>Or you can clone the source code from GitHub:</p><pre><code class="lang-bash">git clone https://github.com/fail2ban/fail2ban.git
+cd fail2ban</code></pre></li></ul><h3>Step 2: Run the installation script</h3><p>In the directory where the source code was downloaded, run the following command to install:</p><pre><code class="lang-bash">sudo python setup.py install</code></pre><p>This will install Fail2Ban into the python library directory, place executable scripts in /usr/bin, and configuration files in /etc/fail2ban.</p><h3>Step 3: Check if Fail2Ban was installed correctly</h3><pre><code class="lang-bash">fail2ban-client -h</code></pre><p>You can use the following command to view the installed Fail2Ban version:</p><pre><code class="lang-bash">fail2ban-client version</code></pre><h3>Step 4: Set Fail2ban as an auto-start service</h3><p>Copy the script suitable for your Linux distribution from the files directory to /etc/init.d.</p><p>For example, on a Debian system:</p><pre><code class="lang-bash">cp files/debian-initd /etc/init.d/fail2ban
+update-rc.d fail2ban defaults
+service fail2ban start</code></pre><h3>Step 5: Specific configuration</h3><p>You can view the detailed configuration guide with <code>fail2ban-client -h</code>.</p><p>Example: Configure Fail2Ban to permanently block IPs that have 3 failed login attempts within 10 minutes:</p><ol><li><p>Create a jail. Here, name the jail as <code>myjail</code> and use <code>polling</code> as the backend:</p><pre><code class="lang-bash">fail2ban-client add myjail polling</code></pre></li><li><p>Set the jail log path. Here, set <code>/var/log/auth.log</code> as the monitored log file:</p><pre><code class="lang-bash">fail2ban-client set myjail addlogpath /var/log/auth.log</code></pre></li><li><p>Add a failed regex pattern. This expression will be used to match login failure log entries. The exact expression may need to be modified based on the actual log format:</p><pre><code class="lang-bash">fail2ban-client set myjail addfailregex '^Failed password for .* from &lt;HOST&gt;'</code></pre></li><li><p>Set the ban time. Here, set <code>bantime</code> to <code>-1</code>, meaning once an IP is banned, the ban will never expire:</p><pre><code class="lang-bash">fail2ban-client set myjail bantime -1</code></pre></li><li><p>Set the failure count. Here, set <code>maxretry</code> to <code>3</code>, meaning if an IP address fails to log in 3 times within the <code>findtime</code>, it will be banned:</p><pre><code class="lang-bash">fail2ban-client set myjail maxretry 3</code></pre></li><li><p>Set the search time. Here, set <code>findtime</code> to <code>600</code>, meaning if an IP address has 3 failed logins within the past 10 minutes (600 seconds), it will be banned:</p><pre><code class="lang-bash">fail2ban-client set myjail findtime 600</code></pre></li><li><p>Finally, start the jail:</p><pre><code class="lang-bash">fail2ban-client start myjail</code></pre></li></ol><p>After completing the above steps, Fail2Ban will start monitoring the <code>/var/log/auth.log</code> file, and any IP address that fails to log in 3 times within 10 minutes will be permanently banned.</p><h2>Related Links:</h2><p>GitHub link: <a href="https://github.com/fail2ban/fail2ban">https://github.com/fail2ban/fail2ban</a></p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">Tag:<a href="../tag/Configure/index.html">Configure</a>, <a href="../tag/Shared-IP-VPS/index.html">Shared IP VPS</a>, <a href="../tag/KVM/index.html">KVM</a></p>
+            <p>Original link:http://enblog.fuyiran.link/Technology/4.html</p>
+            <p>Copyright: All posts on this blog, unless otherwise stated, are published using the<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> license agreement. Please indicate the source for reprinting Fu Speaking (<a href="../index.html" target="_blank">enblog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-4" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-4" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">Cancel the comment</a>            </div>
+
+            <h3 id="response">Add a new comment.</h3>
+            <form method="post" action="4.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required"> Name</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">Website</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">Content</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">Submit comment.</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="3.html" title="How to Configure Rainmap Lite - Web-based Nmap for Network Scanning">How to Configure Rainmap Lite - Web-based Nmap for Network Scanning</a></li>
+        <li>下一篇: <a href="5.html" title="How to Use Mirror Sites to Create a Multilingual Typecho Site">How to Use Mirror Sites to Create a Multilingual Typecho Site</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">Recent posts</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare : Personal Bookmark Navigation</a></li><li><a href="46.html">OneNav: A Personalized Bookmark Management System</a></li><li><a href="45.html">rss-reader An RSS online viewer for instant messaging on web sites</a></li><li><a href="44.html">TangSengDaoDao, An Open-Source Instant Messaging Software</a></li><li><a href="43.html">Habitica: Using Games to Cultivate Your Habits</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Recent replies</h3>
+            <ul class="widget-list">
+                                                    <li>
+                        <a href="5.html#comment-4">Adonis142857</a>: Thanks for the advice                    </li>
+                                    <li>
+                        <a href="43.html#comment-3">guset</a>: great                    </li>
+                                    <li>
+                        <a href="5.html#comment-2">坛友</a>: I 'do something' on the fly，这个表示...                    </li>
+                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Category</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">Life</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">Study</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">Technology</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Archive</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Other</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="http://blog.fuyiran.link/Technology/4.html">简体中文</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">Login</a>
+                    </li>
+                                <li><a href="../feed/index.rss">RSS for posts</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">Fu Speaking</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            Total reads of this site <span id="busuanzi_value_site_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            Total reads of this article <span id="busuanzi_value_page_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            Visitors of this site <span id="busuanzi_value_site_uv"></span> times<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'The site ran for <label class="year">0</label> year <label class="month">0</label> month <label class="day">0</label> day <label class="hour">0</label> hour <label class="minute">0</label> minute <label class="second">0</label> second',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

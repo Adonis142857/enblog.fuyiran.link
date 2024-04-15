@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/Technology/29.html">
+<title>Comments to Fu Speaking - A Step Further, Short Domains Configurable Without Servers</title>
+<link>http://enblog.fuyiran.link/Technology/29.html</link>
+<description>Introduction:020 Short Link, a simple and free short link platform implemented using Cloudflare W...</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

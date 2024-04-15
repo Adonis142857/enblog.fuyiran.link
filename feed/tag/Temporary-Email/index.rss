@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Temporary Email</title>
+<link>http://enblog.fuyiran.link/tag/Temporary-Email/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Temporary-Email/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Sat, 05 Aug 2023 08:03:00 +0800</lastBuildDate>
+<pubDate>Sat, 05 Aug 2023 08:03:00 +0800</pubDate>
+<item>
+<title>Super Simple ~ Deploy Your Own Temporary Email with Forsaken-Mail</title>
+<link>http://enblog.fuyiran.link/Technology/17.html</link>
+<guid>http://enblog.fuyiran.link/Technology/17.html</guid>
+<pubDate>Sat, 05 Aug 2023 08:03:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Forsaken-Mail is an ultra-simple temporary email deployment tool. In my previous art...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Forsaken-Mail is an ultra-simple temporary email deployment tool. In my previous articles, I've introduced two methods. One is to use Cloudflare's email forwarding feature to forward emails to your own inbox, but it can only be sent to one email, and the functionality is limited. The other method uses the Hestia panel, which not only has an independent email but can also use this email to send messages.<br>However, some folks only want to use temporary email services and don't need to send emails, just receive them. Is there a simpler solution? Here it is! Today I'll introduce Forsaken-Mail's deployment plan, which is super simple. Just follow the steps.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/17.html" title="Super Simple ~ Deploy Your Own Temporary Email with Forsaken-Mail">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/17.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Temporary-Email/</wfw:commentRss>
+</item>
+</channel>
+</rss>

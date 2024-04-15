@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Bookmark page</title>
+<link>http://enblog.fuyiran.link/tag/Bookmark-page/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Bookmark-page/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Sun, 20 Aug 2023 10:08:00 +0800</lastBuildDate>
+<pubDate>Sun, 20 Aug 2023 10:08:00 +0800</pubDate>
+<item>
+<title>Flare : Personal Bookmark Navigation</title>
+<link>http://enblog.fuyiran.link/Technology/47.html</link>
+<guid>http://enblog.fuyiran.link/Technology/47.html</guid>
+<pubDate>Sun, 20 Aug 2023 10:08:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Flare is a bookmark navigator that has been carefully designed in terms of performan...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Flare is a bookmark navigator that has been carefully designed in terms of performance, data security, aesthetics, and user experience.</p><h2>Features:</h2><ul><li><strong>Performance Advantage</strong>: Compared to its predecessor Flame, Flare has a distinct performance advantage. Whether it's the small 10MB container image size or the usual consumption of around 30MB of memory, Flare can launch the page in a second in 99% of cases, and memory usage remains at 60MB even under extreme conditions.</li><li><strong>Simple and Transparent Data Strategy</strong>: Flare uses a text format to store bookmark data, ensuring data persistence and transparency. Whether the software can't run someday in the future, or users want to switch to other tools, data migration costs are very low.</li><li><strong>Elegant Interface</strong>: Flare offers consistent bookmark icon designs, including minimalist weather animation icons and over 6000 Material Design Icons, ensuring the software interface's aesthetics.</li><li><strong>Tools for the Lazy</strong>: Flare has a built-in icon quick selection tool, as well as a user-friendly weather display feature, reducing user operation costs.</li><li><strong>Online Editing</strong>: To meet users' editing needs anytime and anywhere, Flare added an online editing feature in the latest version.</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/47.html" title="Flare : Personal Bookmark Navigation">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/47.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Bookmark-page/</wfw:commentRss>
+</item>
+<item>
+<title>OneNav: A Personalized Bookmark Management System</title>
+<link>http://enblog.fuyiran.link/Technology/46.html</link>
+<guid>http://enblog.fuyiran.link/Technology/46.html</guid>
+<pubDate>Sun, 20 Aug 2023 00:04:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:OneNav, a bookmark management system developed using PHP + SQLite 3, centralizes bro...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>OneNav, a bookmark management system developed using PHP + SQLite 3, centralizes browser bookmark management, ensuring deployment in one place and access from anywhere.</p><h2>Features:</h2><ul><li>Distinctive features</li><li>Supports backend management</li><li>Supports private links</li><li>Supports bulk import of bookmarks from Chrome/Firefox/Edge</li><li>Supports multiple theme styles</li><li>Supports automatic link information recognition</li><li>Supports API</li><li>Supports Docker deployment</li><li>Supports uTools plugin</li><li>Supports secondary categorization</li><li>Supports browser extensions (plugins) for Chromium kernel</li><li>Supports online updates</li><li>Mobile version backend</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/46.html" title="OneNav: A Personalized Bookmark Management System">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/46.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Bookmark-page/</wfw:commentRss>
+</item>
+</channel>
+</rss>

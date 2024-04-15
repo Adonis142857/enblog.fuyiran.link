@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/Web-Mailbox/"
+>
+<title type="text">Fu Speaking - Web Mailbox</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-06T00:17:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/Web-Mailbox/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/Web-Mailbox/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Web-Mailbox/" />
+<entry>
+<title type="html"><![CDATA[Want to Set Up Your Own Mail Server? Try Maddy]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/18.html" />
+<id>http://enblog.fuyiran.link/Technology/18.html</id>
+<updated>2023-08-06T00:17:00+08:00</updated>
+<published>2023-08-06T00:17:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Maddy is a mail server developed in Go, easy to deploy, low in resource consumption,...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/18.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Maddy is a mail server developed in Go, easy to deploy, low in resource consumption, and suitable for personal use.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/18.html" title="Want to Set Up Your Own Mail Server? Try Maddy">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/18.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Web-Mailbox/" thr:count="0"/>
+</entry>
+</feed>

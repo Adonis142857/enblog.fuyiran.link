@@ -1,0 +1,631 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>A Step Further, Personal Navigation Page Configurable Without a Server - Fu Speaking</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="0772f63d-fe5c-4824-b51f-9844a604f1a6"></script>
+    
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="Introduction:CF-Worker-Dir is a cloud function application suitable for the Cloudflare Worker pla..." />
+<meta name="keywords" content="Configure,Lightweight,Cloudflare Worker,No server required,Navigation page" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="A Step Further, Personal Navigation Page Configurable Without a Server &raquo; Fu Speaking &raquo; RSS 2.0" href="../feed/Technology/32.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="A Step Further, Personal Navigation Page Configurable Without a Server &raquo; Fu Speaking &raquo; RSS 1.0" href="../feed/rss/Technology/32.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="A Step Further, Personal Navigation Page Configurable Without a Server &raquo; Fu Speaking &raquo; ATOM 1.0" href="../feed/atom/Technology/32.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-32'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-32'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-32'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _b39 = ''///*'u'*/'u'
++'0'//'YJ'
++'a'//'98'
++'7a'//'7z'
++//'yE'
+'yE'+'5f'//'4xJ'
++//'IN'
+'bc'+//'NY'
+'6f'+'f'//'g'
++//'CTV'
+'CTV'+'bZ'//'bZ'
++//'s1x'
+'s1x'+/* 'j'//'j' */''+//'R'
+'1b'+'05a'//'iDt'
++/* 'dh'//'dh' */''+//'iLd'
+'8'+'7'//'P'
++//'Df'
+'a'+//'s'
+'s'+//'l'
+'a'+'f6'//'DPk'
++//'oC'
+'c'+//'D'
+'c'+//'E'
+'E'+'914'//'W'
++'e'//'27x'
++//'UQ'
+'1c'+'a'//'Z'
++/* 'JE'//'JE' */''+'u'//'u'
++//'t5R'
+'d', _KW8M = [[4,6],[11,14],[11,13],[11,14],[19,20],[24,25],[31,32]];
+    
+    for (var i = 0; i < _KW8M.length; i ++) {
+        _b39 = _b39.substring(0, _KW8M[i][0]) + _b39.substring(_KW8M[i][1]);
+    }
+
+    return _b39;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" />    <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?4265cd900bfa19d6c09c5dcc2b0976d8";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+</head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">Fu Speaking</a>
+                    <p class="description">Join me as we explore the world from a fresh perspective. Here, you will find unique analysis of the latest tech news, in-depth records of learning processes, distinctive deep thoughts, and practical resource sharing. Whether you're a student, tech enthusiast, or an explorer seeking direction in life, I believe you'll find what you need here. Together, let's learn and co-create the future.</p>
+                            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">Search keywords.</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="Enter keywords to search:"/>
+                    <button type="submit" class="submit">search</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">Index page</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row">
+
+    
+    
+
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="32.html">A Step Further, Personal Navigation Page Configurable Without a Server</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                Author:<a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">Adonis142857</a>
+            </li>
+            <li>Time:                <time datetime="2023-08-12T08:37:00+08:00" itemprop="datePublished">2023-08-12</time>
+            </li>
+            <li>Category:<a href="../category/Technology/index.html">Technology</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>Introduction:</h2><p>CF-Worker-Dir is a cloud function application suitable for the Cloudflare Worker platform. You can use it to build your own navigation page within a minute, and even reserve an interface to help you sell your domain name. If your domain name has not yet been set up with a website, why not make use of CF-Worker-Dir to prevent your domain from being wasted? 😉</p><table><thead><tr><th> </th><th><a href="32.html">CF-Worker-Dir</a></th><th><a href="31.html">LinkStack</a></th></tr></thead><tbody><tr><td>Customization Level</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>Deployment Difficulty</td><td>😈😈</td><td>😈😈😈😈</td></tr></tbody></table><!--more--><h2>Preview:</h2><p><img src="https://pic.imgdb.cn/item/64d6fb091ddac507cca92974.jpg" alt="" title=""></p><p><img src="https://pic.imgdb.cn/item/64d6fbf41ddac507ccab1ac2.jpg" alt="" title=""></p><h2>Deployment Method:</h2><h2>Step One: Create Worker</h2><p>Go to <code>Workers &amp; Pages</code> section under the <code>Overview</code> project</p><p>Click <code>Create application</code></p><p><img src="https://pic.imgdb.cn/item/64d5048e1ddac507cc993c2c.jpg" alt="" title=""></p><p>Click <code>Create Worker</code></p><p><img src="https://pic.imgdb.cn/item/64d504b21ddac507cc99a44a.jpg" alt="" title=""></p><p>Click <code>deploy</code></p><p><img src="https://pic.imgdb.cn/item/64d505921ddac507cc9c1c86.jpg" alt="" title=""></p><h2>Step Three: Configure Worker</h2><p>Click <code>Configure Worker</code></p><p><img src="https://pic.imgdb.cn/item/64d505d71ddac507cc9cdaf3.jpg" alt="" title=""></p><p>Modify the domain name in <code>Triggers</code></p><p><img src="https://pic.imgdb.cn/item/64d507391ddac507cca0ccdb.jpg" alt="" title=""></p><p>For example:</p><p><img src="https://pic.imgdb.cn/item/64d507701ddac507cca16ab9.jpg" alt="" title=""></p><p>Click on the top of the page <code>Quick edit</code></p><p><img src="https://pic.imgdb.cn/item/64d508aa1ddac507cca50aae.jpg" alt="" title=""></p><p>Enter the following content</p><pre><code class="lang-bash">/**
+ *  自定义网站配置 
+ */
+const config = {
+  title: &quot;自定义导航&quot;,                 //write your website title
+  subtitle: &quot;Cloudflare Workers Dir&quot;, //write your website subtitle
+  logo_icon: &quot;sitemap&quot;,               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
+  hitokoto: true,                     //use hitokoto or not
+  search:true,                        //enable search function
+  search_engine:[                     //choose search engine which you use
+    {
+      name:&quot;百 度&quot;,
+      template:&quot;https://www.baidu.com/s?wd=$s&quot;
+    },
+    {
+      name:&quot;谷 歌&quot;,
+      template:&quot;https://www.google.com/search?q=$s&quot;
+    },
+    {
+      name:&quot;必 应&quot;,
+      template:&quot;https://www.bing.com/search?q=$s&quot;
+    },
+    {
+      name:&quot;搜 狗&quot;,
+      template:&quot;https://www.sogou.com/web?query=$s&quot;
+    }
+  ],
+  selling_ads: true,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
+  sell_info:{
+    domain:&quot;example.com&quot;,
+    price:500,                        //domain price
+    mon_unit:&quot;yen sign&quot;,              //monetary unit 
+    contact:[                         //how to contact you
+      {
+        type:&quot;envelope&quot;,               //contact type (&quot;weixin&quot;,&quot;qq&quot;,&quot;telegram plane&quot;,&quot;envelope&quot; or &quot;phone&quot;)
+        content:&quot;info@example.com&quot;
+      }
+    ]                        
+  },
+  lists: [                            //Url list
+    {
+      name:&quot;技术&quot;,
+      icon:&quot;code&quot;,
+      list:[
+        {
+          url:&quot;https://blog.fuyiran.link/&quot;,
+          name:&quot;傅说&quot;,
+          desc:&quot;领略世界的全新角度&quot;
+        },
+        {
+          url:&quot;https://nodeseek.com&quot;,
+          name:&quot;Nodeseek&quot;,
+          desc:&quot;高品质的主机爱好者社区&quot;
+        },
+        {
+          url:&quot;https://v2ex.com/&quot;,
+          name:&quot;V2ex&quot;,
+          desc:&quot;程序员集散地&quot;
+        },
+        {
+          url:&quot;https://github.com/&quot;,
+          name:&quot;Github&quot;,
+          desc:&quot;最大的同性交友平台&quot;
+        },
+      ]
+    },
+    {
+      name:&quot;学习&quot;,
+      icon:&quot;graduation cap&quot;,
+      list:[
+        {
+          url:&quot;https://w3school.com.cn/&quot;,
+          name:&quot;W3school在线教程&quot;,
+          desc:&quot;程序员集散地&quot;
+        },
+        {
+          url:&quot;https://runoob.com/&quot;,
+          name:&quot;菜鸟教程&quot;,
+          desc:&quot;程序员集散地&quot;
+        },
+        {
+          url:&quot;https://segmentfault.com/&quot;,
+          name:&quot;思否社区&quot;,
+          desc:&quot;程序员集散地&quot;
+        },
+        {
+          url:&quot;https://jianshu.com/&quot;,
+          name:&quot;简书&quot;,
+          desc:&quot;程序员集散地&quot;
+        },
+      ]
+    }
+  ]
+}
+const el = (tag, attrs, content) =&gt; `&lt;${tag} ${attrs.join(&quot; &quot;)}&gt;${content}&lt;/${tag}&gt;`;
+
+async function handleRequest(request) {
+  const init = {
+    headers: {
+      'content-type': 'text/html;charset=UTF-8',
+    },
+  }
+  return new Response(renderHTML(renderIndex(),config.selling_ads? renderSeller() :null), init);
+}
+addEventListener('fetch', event =&gt; {
+  return event.respondWith(handleRequest(event.request))
+})
+
+/*通过分析链接 实时获取favicon
+* @url 需要分析的Url地址
+*/
+function getFavicon(url){
+  if(url.match(/https{0,1}:\/\//)){
+    return &quot;https://ui-avatars.com/api/?bold=true&amp;size=36&amp;background=0D8ABC&amp;color=fff&amp;rounded=true&amp;name=&quot; + url.split('//')[1];
+    //return &quot;https://www.google.cn/s2/favicons?sz=64&amp;domain_url=&quot; + url;
+  }else{
+    return &quot;https://ui-avatars.com/api/?bold=true&amp;size=36&amp;background=0D8ABC&amp;color=fff&amp;rounded=true&amp;name=&quot; + url;
+    //return &quot;https://www.google.cn/s2/favicons?sz=64&amp;domain_url=http://&quot; + url;
+  } 
+}
+
+/** Render Functions
+ *  渲染模块函数
+ */
+
+function renderIndex(){
+  const footer = el('footer',[],el('div',['class=&quot;footer&quot;'],'Powered by' + el('a',['class=&quot;ui label&quot;','href=&quot;https://github.com/sleepwood/cf-worker-dir&quot;','target=&quot;_blank&quot;'],el('i',['class=&quot;github icon&quot;'],&quot;&quot;) + 'Cf-Worker-Dir') + ' &amp;copy; Base on ' + el('a',['class=&quot;ui label&quot;'],el('i',['class=&quot;balance scale icon&quot;'],&quot;&quot;) + 'MIT License')));
+  return renderHeader() + renderMain() + footer;
+}
+
+function renderHeader(){
+  const item = (template,name) =&gt; el('a',['class=&quot;item&quot;',`data-url=&quot;${template}&quot;`],name);
+
+  var nav = el('div',['class=&quot;ui large secondary inverted menu&quot;'],el('div',['class=&quot;item&quot;'],el('p',['id=&quot;hitokoto&quot;'],'条条大路通罗马')))
+  var title = el('h1',['class=&quot;ui inverted header&quot;'],el('i',[`class=&quot;${config.logo_icon} icon&quot;`],&quot;&quot;) + el('div',['class=&quot;content&quot;'],config.title + el('div',['class=&quot;sub header&quot;'],config.subtitle)));
+  var menu = el('div',['id=&quot;sengine&quot;','class=&quot;ui bottom attached tabular inverted secondary menu&quot;'],el('div',['class=&quot;header item&quot;'],'&amp;nbsp;') + config.search_engine.map((link,key) =&gt;{
+    if(key == 0){
+      return el('a',['class=&quot;active item&quot;',`data-url=&quot;${link.template}&quot;`],link.name);
+    }else{
+      return item(link.template,link.name);
+    }
+  }).join(&quot;&quot;))
+  var input = el('div',['class=&quot;ui left corner labeled right icon fluid large input&quot;'],el('div',['class=&quot;ui left corner label&quot;'],el('img',['id=&quot;search-fav&quot;','class=&quot;left floated avatar ui image&quot;','src=&quot;https://www.baidu.com/favicon.ico&quot;'],&quot;&quot;)) + el('input',['id=&quot;searchinput&quot;','type=&quot;search&quot;','placeholder=&quot;搜索你想要知道的……&quot;','autocomplete=&quot;off&quot;'],&quot;&quot;) + el('i',['class=&quot;inverted circular search link icon&quot;'],&quot;&quot;));
+  return el('header',[],el('div',['id=&quot;head&quot;','class=&quot;ui inverted vertical masthead center aligned segment&quot;'],(config.hitokoto ? el('div',['id=&quot;nav&quot;','class=&quot;ui container&quot;'],nav) : &quot;&quot;) + el('div',['id=&quot;title&quot;','class=&quot;ui text container&quot;'],title + (config.search ? input + menu :&quot;&quot;) + `${config.selling_ads ? '&lt;div&gt;&lt;a id=&quot;menubtn&quot; class=&quot;red ui icon inverted button&quot;&gt;&lt;i class=&quot;heart icon&quot;&gt;&lt;/i&gt; 喜欢此域名 &lt;/a&gt;&lt;/div&gt;' : ''}`)))
+}
+
+function renderMain() {
+  var main = config.lists.map((item) =&gt; {
+    const card = (url,name,desc)=&gt; el('a',['class=&quot;card&quot;',`href=${url}`,'target=&quot;_blank&quot;'],el('div',['class=&quot;content&quot;'],el('img',['class=&quot;left floated avatar ui image&quot;',`src=${getFavicon(url)}`],&quot;&quot;) + el('div',['class=&quot;header&quot;'],name) + el('div',['class=&quot;meta&quot;'],desc)));
+    const divider = el('h4',['class=&quot;ui horizontal divider header&quot;'],el('i',[`class=&quot;${item.icon} icon&quot;`],&quot;&quot;)+item.name);
+
+    var content = el('div',['class=&quot;ui four stackable cards&quot;'],item.list.map((link) =&gt;{
+      return card(link.url,link.name,link.desc);
+    }).join(&quot;&quot;));
+
+    return el('div',['class=&quot;ui basic segment&quot;'],divider + content);
+  }).join(&quot;&quot;);
+  
+  return el('main',[],el('div',['class=&quot;ui container&quot;'],main));
+}
+
+function renderSeller() {
+  const item = (type,content) =&gt; el('div',['class=&quot;item&quot;'],el('i',[`class=&quot;${type} icon&quot;`],&quot;&quot;) + el('div',['class=&quot;content&quot;'],content));
+  var title = el('h1',['class=&quot;ui yellow dividing header&quot;'],el('i',['class=&quot;gem outline icon&quot;'],&quot;&quot;) + el('div',['class=&quot;content&quot;'],config.sell_info.domain + ' 正在出售'));
+  var action = el('div',['class=&quot;actions&quot;'],el('div',['class=&quot;ui basic cancel inverted button&quot;'],el('i',['class=&quot;reply icon&quot;'],&quot;&quot;) + '返回'));
+
+  var contact = config.sell_info.contact.map((list) =&gt; {
+    return item(list.type,list.content);
+  }).join(&quot;&quot;);
+  var column = el('div',['class=&quot;column&quot;'],el('h3',['class=&quot;ui center aligned icon inverted header&quot;'],el('i',['class=&quot;circular envelope open outline grey inverted icon&quot;'],&quot;&quot;) + '联系我') + el('div',['class=&quot;ui relaxed celled large list&quot;'],contact));
+  var price = el('div',['class=&quot;column&quot;'],el('div',['class=&quot;ui large yellow statistic&quot;'],el('div',['class=&quot;value&quot;'],el('i',[`class=&quot;${config.sell_info.mon_unit} icon&quot;`],&quot;&quot;) + config.sell_info.price)));
+  var content = el('div',['class=&quot;content&quot;'],el('div',['class=&quot;ui basic segment&quot;'],el('div',['class=&quot;ui two column stackable center aligned grid&quot;'],el('div',['class=&quot;ui inverted vertical divider&quot;'],'感兴趣？') + el('div',['class=&quot;middle aligned row&quot;'],price + column))));
+
+  return el('div',['id=&quot;seller&quot;','class=&quot;ui basic modal&quot;'],title + content + action);
+}
+
+function renderHTML(index,seller) {
+  return `&lt;!DOCTYPE html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+      &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+      &lt;title&gt;${config.title} - ${config.subtitle}&lt;/title&gt;
+      &lt;link href=&quot;https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+      &lt;link href=&quot;https://cdn.jsdelivr.net/gh/sleepwood/cf-worker-dir@0.1.1/style.css&quot; rel=&quot;stylesheet&quot;&gt;
+      &lt;script src=&quot;https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js&quot;&gt;&lt;/script&gt;
+      &lt;script src=&quot;https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    ${index}
+    ${config.selling_ads ? seller : ''}
+    &lt;script src=&quot;https://v1.hitokoto.cn/?encode=js&amp;select=%23hitokoto&quot; defer&gt;&lt;/script&gt;
+    &lt;script&gt;
+      $('#sengine a').on('click', function (e) {
+        $('#sengine a.active').toggleClass('active');
+        $(e.target).toggleClass('active');
+        $('#search-fav').attr('src',$(e.target).data('url').match(`+/https{0,1}:\/\/\S+\//+`)[0] + '/favicon.ico') ;
+      });
+      $('.search').on('click', function (e) {
+          var url = $('#sengine a.active').data('url');
+          url = url.replace(`+/\$s/+`,$('#searchinput').val());
+          window.open(url);
+      });
+      /* 鼠标聚焦时，回车事件 */
+      $(&quot;#searchinput&quot;).bind(&quot;keypress&quot;, function(){
+          if (event.keyCode == 13){
+          // 触发需要调用的方法
+          $(&quot;.search&quot;).click();
+          }
+      });
+      $('#menubtn').on('click', function (e) {
+          $('#seller').modal('show');
+      });
+    &lt;/script&gt;
+  &lt;/body&gt;
+
+  &lt;/html&gt;`
+}</code></pre><p>Customize the navigation page by modifying the configuration:</p><pre><code class="lang-bash">const config = {
+  title: &quot;自定义导航&quot;,                 //Customize website title
+  subtitle: &quot;Cloudflare Workers Nav&quot;, //Customize website subtitles
+  logo_icon: &quot;sitemap&quot;,               //Select website logo icon Currently only supported (eg:https://semantic-ui.com/elements/icon.html)
+  hitokoto: true,                     //Enable the Yiyan plugin
+  search:true,                        //Enable search function
+  search_engine:[                     //Search Engine List
+    {
+      name:&quot;百度一下&quot;,                   //Search Engine Name
+      template:&quot;https://www.baidu.com/s?wd=$s&quot;  //Search engine template (including keyword $s)
+    }
+  ],
+  selling_ads: true,                  //enable website promotion
+  sell_info:{
+    domain:&quot;example.com&quot;,             //Current domain name
+    price:500,                        //price
+    mon_unit:&quot;yen sign&quot;,              //Monetary unit (eg:https://semantic-ui.com/elements/icon.html#computers)
+    contact:[                         //Contact information
+      {
+        type:&quot;envelope&quot;,              //Communication tools (&quot;weixin&quot;,&quot;qq&quot;,&quot;telegram plane&quot;,&quot;envelope&quot; or &quot;phone&quot;)
+        content:&quot;info@example.com&quot;    //Number/Address
+      }
+    ]                        
+  },
+  lists: [                            //Website Information
+    {
+      name:&quot;技术&quot;,                    //Website category
+      icon:&quot;code&quot;,                    //Website category icon Currently only supported (eg:https://semantic-ui.com/elements/icon.html)
+      list:[
+        {
+          url:&quot;https://oschina.net/&quot;, //Website URL
+          name:&quot;开源中国&quot;,             //Website Name
+          desc:&quot;领先的中文开源技术社区&quot; //Website Description
+        }
+      ]
+    }
+  ]
+}</code></pre><h2>Related Links:</h2><p>GitHub address: <a href="https://github.com/sleepwood/CF-Worker-Dir/">https://github.com/sleepwood/CF-Worker-Dir/</a></p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">Tag:<a href="../tag/Configure/index.html">Configure</a>, <a href="../tag/Lightweight/index.html">Lightweight</a>, <a href="../tag/Cloudflare-Worker/index.html">Cloudflare Worker</a>, <a href="../tag/No-server-required/index.html">No server required</a>, <a href="../tag/Navigation-page/index.html">Navigation page</a></p>
+            <p>Original link:http://enblog.fuyiran.link/Technology/32.html</p>
+            <p>Copyright: All posts on this blog, unless otherwise stated, are published using the<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> license agreement. Please indicate the source for reprinting Fu Speaking (<a href="../index.html" target="_blank">enblog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-32" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-32" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">Cancel the comment</a>            </div>
+
+            <h3 id="response">Add a new comment.</h3>
+            <form method="post" action="32.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required"> Name</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">Website</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">Content</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">Submit comment.</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="31.html" title="LinkStack is a great choice for deploying a beautiful and lightweight link aggregator page!">LinkStack is a great choice for deploying a beautiful and lightweight link aggregator page!</a></li>
+        <li>下一篇: <a href="33.html" title="Building Your Own Book Library with Talebook">Building Your Own Book Library with Talebook</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">Recent posts</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare : Personal Bookmark Navigation</a></li><li><a href="46.html">OneNav: A Personalized Bookmark Management System</a></li><li><a href="45.html">rss-reader An RSS online viewer for instant messaging on web sites</a></li><li><a href="44.html">TangSengDaoDao, An Open-Source Instant Messaging Software</a></li><li><a href="43.html">Habitica: Using Games to Cultivate Your Habits</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Recent replies</h3>
+            <ul class="widget-list">
+                                                    <li>
+                        <a href="5.html#comment-4">Adonis142857</a>: Thanks for the advice                    </li>
+                                    <li>
+                        <a href="43.html#comment-3">guset</a>: great                    </li>
+                                    <li>
+                        <a href="5.html#comment-2">坛友</a>: I 'do something' on the fly，这个表示...                    </li>
+                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Category</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">Life</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">Study</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">Technology</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Archive</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Other</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="http://blog.fuyiran.link/Technology/32.html">简体中文</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">Login</a>
+                    </li>
+                                <li><a href="../feed/index.rss">RSS for posts</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">Fu Speaking</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            Total reads of this site <span id="busuanzi_value_site_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            Total reads of this article <span id="busuanzi_value_page_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            Visitors of this site <span id="busuanzi_value_site_uv"></span> times<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'The site ran for <label class="year">0</label> year <label class="month">0</label> month <label class="day">0</label> day <label class="hour">0</label> hour <label class="minute">0</label> minute <label class="second">0</label> second',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

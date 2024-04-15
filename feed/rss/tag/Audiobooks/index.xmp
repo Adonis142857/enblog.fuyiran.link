@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Audiobooks/">
+<title>Fu Speaking - Audiobooks</title>
+<link>http://enblog.fuyiran.link/tag/Audiobooks/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/35.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/35.html">
+<title>Self-hosted Audiobooks and Podcasts? Try Audiobookshelf</title>
+<link>http://enblog.fuyiran.link/Technology/35.html</link>
+<dc:date>2023-08-14T12:02:00+08:00</dc:date>
+<description>Introduction:Audiobookshelf is a self-hosted audiobook and podcast server, designed specifically for audio enthusiasts. It is completely open source, including Android and iOS apps that are currently in the testing phase. It allows instant streaming of all audio formats, supports searching, and adding podcasts.What makes Audiobookshelf unique is its ability to automatically detect library updates and batch uploads. It can back up metadata and automatically perform daily backups, obtain metadata and covers from multiple sources, and is equipped with a chapter editor and chapter search function. It allows users to merge audio files into a single m4b format and embed metadata and cover images into the audio files. Also, it can act as an e-book reader, supporting Epub, pdf, cbr, and cbz formats. Users can even send e-books to devices (such as Kindle) and set up RSS feeds for podcasts and audiobooks.[...]</description>
+</item>
+</rdf:RDF>

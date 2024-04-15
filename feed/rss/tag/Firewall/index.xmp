@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Firewall/">
+<title>Fu Speaking - Firewall</title>
+<link>http://enblog.fuyiran.link/tag/Firewall/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/6.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/6.html">
+<title>How to Create a Web Mailbox Using the Hestia Panel</title>
+<link>http://enblog.fuyiran.link/Technology/6.html</link>
+<dc:date>2023-08-01T00:40:00+08:00</dc:date>
+<description>Please note: The Hestia Control Panel needs to be installed on a brand-new operating system to ensure normal operation.Supported platforms and operating systems:Debian: 12, 11 or 10Ubuntu: 22.04 LTS, 20.04 LTSNote: Hestia Control Panel does not support 32-bit operating systems![...]</description>
+</item>
+</rdf:RDF>

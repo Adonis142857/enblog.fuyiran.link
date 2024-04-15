@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>How to Set Up NginxWebUI with Docker - Fu Speaking</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="0772f63d-fe5c-4824-b51f-9844a604f1a6"></script>
+    
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="Introduction: NginxWebUI is a visual management tool for configuring Nginx load balancing and rev..." />
+<meta name="keywords" content="Configure,NginxWebUI,Docker" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="How to Set Up NginxWebUI with Docker &raquo; Fu Speaking &raquo; RSS 2.0" href="../feed/Technology/11.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="How to Set Up NginxWebUI with Docker &raquo; Fu Speaking &raquo; RSS 1.0" href="../feed/rss/Technology/11.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="How to Set Up NginxWebUI with Docker &raquo; Fu Speaking &raquo; ATOM 1.0" href="../feed/atom/Technology/11.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-11'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-11'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-11'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _JkF = //'l'
+'c2'+'2'//'YKt'
++//'TI'
+'8ef'+//'3N0'
+'84b'+//'sxp'
+'c60'+//'4a'
+'7bd'+//'qk'
+'3a'+//'J'
+'8'+//'KPN'
+'ace'+//'c'
+'ff8'+//'Kn8'
+'b'+//'ubz'
+'333'+'b'//'cr'
++//'L'
+'590', _K1gmuAi = [];
+    
+    for (var i = 0; i < _K1gmuAi.length; i ++) {
+        _JkF = _JkF.substring(0, _K1gmuAi[i][0]) + _JkF.substring(_K1gmuAi[i][1]);
+    }
+
+    return _JkF;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" />    <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?4265cd900bfa19d6c09c5dcc2b0976d8";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+</head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">Fu Speaking</a>
+                    <p class="description">Join me as we explore the world from a fresh perspective. Here, you will find unique analysis of the latest tech news, in-depth records of learning processes, distinctive deep thoughts, and practical resource sharing. Whether you're a student, tech enthusiast, or an explorer seeking direction in life, I believe you'll find what you need here. Together, let's learn and co-create the future.</p>
+                            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">Search keywords.</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="Enter keywords to search:"/>
+                    <button type="submit" class="submit">search</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">Index page</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row">
+
+    
+    
+
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="11.html">How to Set Up NginxWebUI with Docker</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                Author:<a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">Adonis142857</a>
+            </li>
+            <li>Time:                <time datetime="2023-08-01T16:25:00+08:00" itemprop="datePublished">2023-08-01</time>
+            </li>
+            <li>Category:<a href="../category/Technology/index.html">Technology</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>Introduction: NginxWebUI is a visual management tool for configuring Nginx load balancing and reverse proxy. You can use this tool to easily manage and configure Nginx, as well as view its running status and logs.</h2><!--more--><h3>Step One: Update Sources</h3><p>For Ubuntu/Debian:</p><pre><code class="lang-bash">sudo apt-get update -y &amp;&amp; sudo apt-get upgrade -y</code></pre><p>For CentOS:</p><pre><code class="lang-bash">sudo yum update -y &amp;&amp; sudo yum upgrade -y</code></pre><h3>Step Two: Install and Configure Docker</h3><p>Install Docker:</p><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sudo sh ./get-docker.sh</code></pre><p>Start Docker:</p><pre><code class="lang-bash">sudo systemctl start docker</code></pre><p>Set Docker to start automatically at boot:</p><pre><code class="lang-bash">sudo systemctl enable docker</code></pre><h3>Step Three: Pull the Docker Image for NginxWebUI</h3><p>You can pull the Docker image for NginxWebUI from Docker Hub or the Aliyun image repository. Choose one of the following commands to run:</p><pre><code class="lang-bash">docker pull cym1102/nginxwebui:latest</code></pre><p>or</p><pre><code class="lang-bash">docker pull registry.cn-hangzhou.aliyuncs.com/cym19871102/nginxwebui:latest</code></pre><h3>Step Four: Run the Docker Image for NginxWebUI</h3><p>Create and start a Docker container for NginxWebUI using the following command:</p><pre><code class="lang-bash">docker run -itd \
+  -v /home/nginxWebUI:/home/nginxWebUI \
+  -e BOOT_OPTIONS=&quot;--server.port=8080&quot; \
+  --privileged=true \
+  --net=host \
+  cym1102/nginxwebui:latest</code></pre><p>Please note that you need to use the <code>--net=host</code> parameter to map all ports on the host machine, as the internal Nginx may use any port.</p><p>Also, you need to map the <code>/home/nginxWebUI:/home/nginxWebUI</code> directory. This directory contains all the project data files, including the database, Nginx configuration files, logs, certificates, etc. This directory ensures that project data is not lost when the image is upgraded. Be sure to back it up.</p><p>In the <code>-e BOOT_OPTIONS</code> parameter, you can fill in the Java startup parameters. Through this parameter, you can change the port number. <code>--server.port</code> is the port to be used. If not specified, it will start on port 8080 by default.</p><p>Logs are stored by default in <code>/home/nginxWebUI/log/nginxWebUI.log</code>.</p><p>You can also use docker-compose to start NginxWebUI. The configuration file is as follows:</p><pre><code class="lang-bash">version: &quot;3.2&quot;
+services:
+  nginxWebUi-server:
+    image: cym1102/nginxwebui:latest
+    volumes:
+      - type: bind
+        source: &quot;/home/nginxWebUI&quot;
+        target: &quot;/home/nginxWebUI&quot;
+    environment:
+      BOOT_OPTIONS: &quot;--server.port=8080&quot;
+    privileged: true
+    network_mode: &quot;host&quot;</code></pre><h3>Step Five: Log in to the Website for Configuration</h3><p>Access <code>IP:8080</code> in your browser. When you open this address for the first time, you will be asked to initialize the administrator account.</p><p><img src="https://pic.imgdb.cn/item/64c924731ddac507cc9b9eed.jpg" alt="" title=""></p><p>In the HTTP parameter configuration, you can configure the HTTP items of Nginx and perform HTTP forwarding.</p><p><img src="https://pic.imgdb.cn/item/64c92c301ddac507ccab4855.jpg" alt="" title=""></p><p>In the TCP parameter configuration, configure the stream project parameters of Nginx.</p><p><img src="https://pic.imgdb.cn/item/64c92d931ddac507ccafb27f.jpg" alt="" title=""></p><p>In the reverse proxy, configure the reverse proxy function of Nginx, i.e., the server item function. You can enable SSL, upload PEM files and key files directly from the web page, or use the certificates applied for in the system. You can directly enable HTTP to jump to HTTPS and enable the HTTP2 protocol.</p><p><img src="https://pic.imgdb.cn/item/64c92db51ddac507ccaff7f2.jpg" alt="" title=""></p><p>In the load balancing, you can configure the load balancing function of Nginx, i.e., the upstream item function. In the reverse proxy management, you can select the proxy target as the configured load balancing.</p><p><img src="https://pic.imgdb.cn/item/64c92de01ddac507ccb0500e.jpg" alt="" title=""></p><p>In the HTML static file upload, you can directly upload the HTML zip file to the specified path. After uploading, you can directly use it in the reverse proxy, eliminating the step of uploading HTML files in Linux.</p><p><img src="https://pic.imgdb.cn/item/64c92dea1ddac507ccb068a0.jpg" alt="" title=""></p><p>In the certificate management, you can add certificates, issue and renew them. After enabling the scheduled renewal, the system will automatically renew the certificates that are about to expire. <strong>Note</strong>: The issuance of certificates uses the DNS mode of acme.sh and needs to be used in conjunction with Aliyun's aliKey and aliSecret. Please apply for aliKey and aliSecret in advance.</p><p><img src="https://pic.imgdb.cn/item/64c92e0d1ddac507ccb0b71a.jpg" alt="" title=""></p><p>Backup file management, here you can see the backup history versions of nginx.cnf. When Nginx encounters an error, you can choose to roll back to a certain historical version.</p><p><img src="https://pic.imgdb.cn/item/64c92e271ddac507ccb0ec16.jpg" alt="" title=""></p><p>Finally, generate the conf file, you can further manually modify it here. After confirming that the modifications are correct, you can overwrite the local conf file and perform validation and restart. You can choose to generate a single nginx.conf file or put each configuration file separately in conf.d according to the domain name.</p><p><img src="https://pic.imgdb.cn/item/64c92e3c1ddac507ccb11a2c.jpg" alt="" title=""></p><p>Supports remote server management. If you have multiple Nginx servers, you can deploy NginxWebUI on all of them, then log in to one of them, add the IP and username and password of other servers in remote management, and manage all Nginx servers on one machine. Provides a one-click synchronization function, you can synchronize the data configuration and certificate files of a certain server to other servers.</p><p><img src="https://pic.imgdb.cn/item/64c92e541ddac507ccb150b9.jpg" alt="" title=""></p><p>If you need to call the functions of NginxWebUI through the API, you can visit <code>IP:8080/doc.html</code> to view the smart-doc interface page.</p><p>If you forget the login password or did not save the two-step verification QR code, you can reset the password and turn off the two-step verification by following the steps below.</p><ol><li>Stop the docker container from running.</li><li>Use the password recovery parameter to run nginxWebUI.jar, you need to download nginxWebUI.jar separately to run this command.</li></ol><pre><code class="lang-bash">mkdir /home/nginxWebUI/ 
+wget -O /home/nginxWebUI/nginxWebUI.jar http://file.nginxwebui.cn/nginxWebUI-
+
+3.6.5.jar
+java -jar nginxWebUI.jar --project.home=/home/nginxWebUI/ --project.findPass=true</code></pre><p><code>--project.home</code> is the directory where the project files are located. When using a docker container, it is the mapped directory.</p><p><code>--project.findPass</code> is whether to print the username and password.</p><p>After successful operation, you can reset and print all usernames and passwords and turn off two-step verification.</p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">Tag:<a href="../tag/Configure/index.html">Configure</a>, <a href="../tag/NginxWebUI/index.html">NginxWebUI</a>, <a href="../tag/Docker/index.html">Docker</a></p>
+            <p>Original link:http://enblog.fuyiran.link/Technology/11.html</p>
+            <p>Copyright: All posts on this blog, unless otherwise stated, are published using the<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> license agreement. Please indicate the source for reprinting Fu Speaking (<a href="../index.html" target="_blank">enblog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-11" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-11" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">Cancel the comment</a>            </div>
+
+            <h3 id="response">Add a new comment.</h3>
+            <form method="post" action="11.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required"> Name</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">Website</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">Content</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">Submit comment.</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="10.html" title="How to configure Zbook (Your Own eBook Download Website)">How to configure Zbook (Your Own eBook Download Website)</a></li>
+        <li>下一篇: <a href="12.html" title="How to Deploy umami - A Simple but Useful Web Traffic Analytics Tool">How to Deploy umami - A Simple but Useful Web Traffic Analytics Tool</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">Recent posts</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare : Personal Bookmark Navigation</a></li><li><a href="46.html">OneNav: A Personalized Bookmark Management System</a></li><li><a href="45.html">rss-reader An RSS online viewer for instant messaging on web sites</a></li><li><a href="44.html">TangSengDaoDao, An Open-Source Instant Messaging Software</a></li><li><a href="43.html">Habitica: Using Games to Cultivate Your Habits</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Recent replies</h3>
+            <ul class="widget-list">
+                                                    <li>
+                        <a href="5.html#comment-4">Adonis142857</a>: Thanks for the advice                    </li>
+                                    <li>
+                        <a href="43.html#comment-3">guset</a>: great                    </li>
+                                    <li>
+                        <a href="5.html#comment-2">坛友</a>: I 'do something' on the fly，这个表示...                    </li>
+                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Category</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">Life</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">Study</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">Technology</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Archive</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Other</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="http://blog.fuyiran.link/Technology/11.html">简体中文</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">Login</a>
+                    </li>
+                                <li><a href="../feed/index.rss">RSS for posts</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">Fu Speaking</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            Total reads of this site <span id="busuanzi_value_site_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            Total reads of this article <span id="busuanzi_value_page_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            Visitors of this site <span id="busuanzi_value_site_uv"></span> times<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'The site ran for <label class="year">0</label> year <label class="month">0</label> month <label class="day">0</label> day <label class="hour">0</label> hour <label class="minute">0</label> minute <label class="second">0</label> second',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

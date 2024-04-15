@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Habitica</title>
+<link>http://enblog.fuyiran.link/tag/Habitica/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Habitica/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Fri, 18 Aug 2023 11:30:00 +0800</lastBuildDate>
+<pubDate>Fri, 18 Aug 2023 11:30:00 +0800</pubDate>
+<item>
+<title>Habitica: Using Games to Cultivate Your Habits</title>
+<link>http://enblog.fuyiran.link/Technology/43.html</link>
+<guid>http://enblog.fuyiran.link/Technology/43.html</guid>
+<pubDate>Fri, 18 Aug 2023 11:30:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Habitica is an open-source habit-building program that treats your life as a role-pl...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Habitica is an open-source habit-building program that treats your life as a role-playing game. When you successfully achieve the goals you set, your character will level up. If you fail, your character will lose HP in the game. You can also earn money to purchase weapons and armor by forming habits. This program not only helps you build and stick to habits but also brings you the fun and sense of accomplishment of gaming.</p><h2>Note:</h2><p>It's not recommended for individuals to deploy this themselves. Official apps are available for Android and IOS. Self-deployment cannot be linked (but can interact with the web version).</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/43.html" title="Habitica: Using Games to Cultivate Your Habits">[...]</a></p>
+]]></content:encoded>
+<slash:comments>1</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/43.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Habitica/</wfw:commentRss>
+</item>
+</channel>
+</rss>

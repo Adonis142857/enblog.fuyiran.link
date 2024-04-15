@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Hasty Paste</title>
+<link>http://enblog.fuyiran.link/tag/Hasty-Paste/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Hasty-Paste/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Tue, 15 Aug 2023 12:08:00 +0800</lastBuildDate>
+<pubDate>Tue, 15 Aug 2023 12:08:00 +0800</pubDate>
+<item>
+<title>Hasty Paste - A More Suitable Clipboard for Code Sharing</title>
+<link>http://enblog.fuyiran.link/Technology/37.html</link>
+<guid>http://enblog.fuyiran.link/Technology/37.html</guid>
+<pubDate>Tue, 15 Aug 2023 12:08:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[IntroductionHasty Paste, a lightweight self-hosted clipboard, allows you to quickly paste and sav...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction</h2><p>Hasty Paste, a lightweight self-hosted clipboard, allows you to quickly paste and save text, and share it with others. You can access it without logging in, using a randomly generated number to uniquely identify each paste, and it provides a long number to resist brute-force cracking attacks. It supports configurable expiration times and night mode, and you can optionally highlight syntax. It runs without needing JavaScript.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/37.html" title="Hasty Paste - A More Suitable Clipboard for Code Sharing">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/37.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Hasty-Paste/</wfw:commentRss>
+</item>
+</channel>
+</rss>

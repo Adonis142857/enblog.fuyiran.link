@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Must-Have for Card Selling</title>
+<link>http://enblog.fuyiran.link/tag/Must-Have-for-Card-Selling/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Must-Have-for-Card-Selling/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Sat, 12 Aug 2023 00:15:00 +0800</lastBuildDate>
+<pubDate>Sat, 12 Aug 2023 00:15:00 +0800</pubDate>
+<item>
+<title>Step-by-Step Guide to Building an Automated Program to Detect and Unlock Apple ID: A Must-Have for Card Selling Websites</title>
+<link>http://enblog.fuyiran.link/Technology/30.html</link>
+<guid>http://enblog.fuyiran.link/Technology/30.html</guid>
+<pubDate>Sat, 12 Aug 2023 00:15:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introductionappleid_auto, an automated Apple ID detection & unlocking program based on security q...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction</h2><p>appleid_auto, an automated Apple ID detection & unlocking program based on security questions.</p><p>The front-end is used to manage accounts, supporting the addition of multiple accounts and displaying an account page.</p><p>Supports creating sharing pages with multiple accounts and setting passwords for them.</p><p>The back-end periodically checks whether accounts are locked; if locked or if two-step verification is enabled, it automatically unlocks them, changes passwords, and reports the passwords to the API.</p><p>Logs into Apple ID and automatically deletes devices in Apple ID.</p><p>Enables proxy pools and Selenium clusters to increase unlocking success rates and prevent risk control.</p><p>Card selling websites can use it to build an account sharing interface to attract traffic.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/30.html" title="Step-by-Step Guide to Building an Automated Program to Detect and Unlock Apple ID: A Must-Have for Card Selling Websites">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/30.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Must-Have-for-Card-Selling/</wfw:commentRss>
+</item>
+</channel>
+</rss>

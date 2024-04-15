@@ -1,0 +1,372 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws - Fu Speaking</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="0772f63d-fe5c-4824-b51f-9844a604f1a6"></script>
+    
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="IntroductionA honeypot, a technology used to deceive attackers, is created by setting up hosts, n..." />
+<meta name="keywords" content="Configure,Honeypot,HFish" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws &raquo; Fu Speaking &raquo; RSS 2.0" href="../feed/Technology/23.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws &raquo; Fu Speaking &raquo; RSS 1.0" href="../feed/rss/Technology/23.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws &raquo; Fu Speaking &raquo; ATOM 1.0" href="../feed/atom/Technology/23.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-23'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-23'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-23'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _xVcJ = ''///*'vKl'*/'vKl'
++'Er'//'Er'
++/* 'V5A'//'V5A' */''+//'P04'
+'73f'+//'H'
+'H'+'710'//'i4T'
++'4f'//'gr'
++'88'//'ArC'
++//'Dgt'
+'Dgt'+'6da'//'Nz5'
++/* 'S'//'S' */''+'55'//'0f9'
++'a'//'7nu'
++//'Nc'
+'Nc'+//'0'
+'8e5'+'feb'//'iUK'
++//'ueT'
+'86c'+//'u2'
+'2'+//'O3'
+'5'+'781'//'J7'
++//'xhM'
+'xhM'+''///*'WCK'*/'WCK'
++'WC'//'WC'
++//'S9u'
+'0'+'6'//'c'
+, _4FJihr = [[0,2],[3,4],[10,13],[16,18],[30,33],[30,32]];
+    
+    for (var i = 0; i < _4FJihr.length; i ++) {
+        _xVcJ = _xVcJ.substring(0, _4FJihr[i][0]) + _xVcJ.substring(_4FJihr[i][1]);
+    }
+
+    return _xVcJ;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" />    <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?4265cd900bfa19d6c09c5dcc2b0976d8";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+</head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">Fu Speaking</a>
+                    <p class="description">Join me as we explore the world from a fresh perspective. Here, you will find unique analysis of the latest tech news, in-depth records of learning processes, distinctive deep thoughts, and practical resource sharing. Whether you're a student, tech enthusiast, or an explorer seeking direction in life, I believe you'll find what you need here. Together, let's learn and co-create the future.</p>
+                            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">Search keywords.</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="Enter keywords to search:"/>
+                    <button type="submit" class="submit">search</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">Index page</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row">
+
+    
+    
+
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="23.html">HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                Author:<a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">Adonis142857</a>
+            </li>
+            <li>Time:                <time datetime="2023-08-07T18:38:00+08:00" itemprop="datePublished">2023-08-07</time>
+            </li>
+            <li>Category:<a href="../category/Technology/index.html">Technology</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>Introduction</h2><p>A honeypot, a technology used to deceive attackers, is created by setting up hosts, network services, or information as bait to lure attackers into attacking them. This allows capturing and analyzing the attacking behavior, understanding the tools and methods used by the attackers, and inferring the attackers' intentions and motives. It helps defenders to clearly understand the security threats they face and enhance the security protection capabilities of the actual system through technical and management means.</p><!--more--><p>HFish, a free, simple, and secure honeypot product, helps users increase threat awareness in daily security operations, discover attackers' weaknesses, and take relevant actions. It is widely used for sensing the horizontal movement of compromised hosts in office intranets, production environments, cloud intranets, employee account leaks, scanning and detection activities, private intelligence production, and even internal drills and security awareness training. HFish's various alert output forms, combined with situational awareness, NDR, XDR, or log platforms, greatly expand the detection field of view. Using the B/S architecture, the system consists of a management end and a node end. The management end generates and manages the node end, and receives, analyzes, and displays the data returned by the node end. The node end accepts control from the management end and is responsible for building honeypot services.</p><p>In HFish, the management end is only used for data analysis and display, and the node end carries out the virtual honeypot, finally borne by the honeypot to withstand the attack. Of course, you can also directly install the management end and use the built-in node in the management end to directly test the honeypot service.</p><h2>Screenshot:</h2><p><img src="https://pic.imgdb.cn/item/64d111a11ddac507cc174e2d.jpg" alt="" title=""></p><h2>Environment Requirements:</h2><ol><li><p>Honeypot deployed on the intranet:</p><table><thead><tr><th> </th><th>Management</th><th>Node</th></tr></thead><tbody><tr><td>Recommended Configuration</td><td>2 cores 4g 200G</td><td>1 core 2g 50G</td></tr><tr><td>Minimum Configuration</td><td>1 core 2g 100G</td><td>1 core 1g 50G</td></tr></tbody></table></li><li><p>Honeypot deployed on the Internet:</p><table><thead><tr><th> </th><th>Management</th><th>Node</th></tr></thead><tbody><tr><td>Recommended Configuration</td><td>Within 5 nodes, 4 cores 8g 200G.</td><td>1 core 2g 50G</td></tr><tr><td>Minimum Configuration</td><td>2 cores 4g 100G</td><td>1 core 1g 50G</td></tr></tbody></table></li></ol><p>Note: The disk space occupied by logs is greatly affected by the number of attacks, and it is recommended to configure 200G or more of hard disk space for the management end.</p><h2>Deployment Method One: Install from Source Code</h2><p>It is recommended to use the CentOS system for configuration.</p><h3>Step One: Enable Firewall (If other ports are needed for honeypot service later, you can use the same command to open them)</h3><pre><code class="lang-bash">firewall-cmd --add-port=4433/tcp --permanent   # (For web interface startup)
+firewall-cmd --add-port=4434/tcp --permanent   # (For communication between node and management end)
+firewall-cmd --reload</code></pre><h3>Step Two: Run the following code</h3><pre><code class="lang-bash">bash &lt;(curl -sS -L https://hfish.net/webinstall.sh)</code></pre><p>After deployment, you can access <code>https://&lt;your-ip&gt;:4433/web/</code> to access HFish.</p><p>Username: admin<br>Password: HFish2021</p><p>HFish will automatically create a node on the management end. You can log in and view it in the "Node Management" list.</p><p>This node will default to enable some services, including FTP, SSH, Telnet, Zabbix monitoring system, Nginx honeypot, MySQL honeypot, Redis honeypot, HTTP proxy honeypot, ElasticSearch honeypot, and generic TCP port listening. Note: This node cannot be deleted but can be paused.</p><p><img src="https://pic.imgdb.cn/item/64d1133f1ddac507cc1bbf53.jpg" alt="" title=""></p><h2>Add Node</h2><ol><li>Enter the "Node Management" page, click "Add Node."<br><img src="https://pic.imgdb.cn/item/64d114411ddac507cc1e8ac0.jpg" alt="" title=""></li><li>Choose the corresponding installation package and callback address according to the node device type.<br><img src="https://pic.imgdb.cn/item/64d114561ddac507cc1ec347.jpg" alt="" title=""></li><li><p>Execute the command statement or installation package on the node machine to successfully deploy the node.<br><img src="https://pic.imgdb.cn/item/64d114c11ddac507cc1fe0bc.jpg" alt="" title=""></p><h2>Related Links:</h2><p>Official Website: <a href="https://hfish.net">https://hfish.net</a></p></li></ol>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">Tag:<a href="../tag/Configure/index.html">Configure</a>, <a href="../tag/Honeypot/index.html">Honeypot</a>, <a href="../tag/HFish/index.html">HFish</a></p>
+            <p>Original link:http://enblog.fuyiran.link/Technology/23.html</p>
+            <p>Copyright: All posts on this blog, unless otherwise stated, are published using the<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> license agreement. Please indicate the source for reprinting Fu Speaking (<a href="../index.html" target="_blank">enblog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-23" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-23" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">Cancel the comment</a>            </div>
+
+            <h3 id="response">Add a new comment.</h3>
+            <form method="post" action="23.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required"> Name</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">Website</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">Content</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">Submit comment.</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="22.html" title="Self-hosting a Survey/Exam System? Then I Recommend &quot;SurveyKing&quot;">Self-hosting a Survey/Exam System? Then I Recommend &quot;SurveyKing&quot;</a></li>
+        <li>下一篇: <a href="24.html" title="Cryptgeon - A Lightweight Secure Message and Document Sharing Platform">Cryptgeon - A Lightweight Secure Message and Document Sharing Platform</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">Recent posts</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare : Personal Bookmark Navigation</a></li><li><a href="46.html">OneNav: A Personalized Bookmark Management System</a></li><li><a href="45.html">rss-reader An RSS online viewer for instant messaging on web sites</a></li><li><a href="44.html">TangSengDaoDao, An Open-Source Instant Messaging Software</a></li><li><a href="43.html">Habitica: Using Games to Cultivate Your Habits</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Recent replies</h3>
+            <ul class="widget-list">
+                                                    <li>
+                        <a href="5.html#comment-4">Adonis142857</a>: Thanks for the advice                    </li>
+                                    <li>
+                        <a href="43.html#comment-3">guset</a>: great                    </li>
+                                    <li>
+                        <a href="5.html#comment-2">坛友</a>: I 'do something' on the fly，这个表示...                    </li>
+                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Category</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">Life</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">Study</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">Technology</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Archive</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">Other</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="http://blog.fuyiran.link/Technology/23.html">简体中文</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">Login</a>
+                    </li>
+                                <li><a href="../feed/index.rss">RSS for posts</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">Fu Speaking</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            Total reads of this site <span id="busuanzi_value_site_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            Total reads of this article <span id="busuanzi_value_page_pv"></span> times<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            Visitors of this site <span id="busuanzi_value_site_uv"></span> times<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'The site ran for <label class="year">0</label> year <label class="month">0</label> month <label class="day">0</label> day <label class="hour">0</label> hour <label class="minute">0</label> minute <label class="second">0</label> second',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

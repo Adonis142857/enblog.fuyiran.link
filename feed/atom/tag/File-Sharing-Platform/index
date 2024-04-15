@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/File-Sharing-Platform/"
+>
+<title type="text">Fu Speaking - File Sharing Platform</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-09T12:20:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/File-Sharing-Platform/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/File-Sharing-Platform/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/File-Sharing-Platform/" />
+<entry>
+<title type="html"><![CDATA[FileCodeBox ~ File Delivery Cabinet, Retrieve Files Like Retrieving a Parcel]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/25.html" />
+<id>http://enblog.fuyiran.link/Technology/25.html</id>
+<updated>2023-08-09T12:20:00+08:00</updated>
+<published>2023-08-09T12:20:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:In previous articles, I wrote about the deployment plan for Pingvin Share. Many frie...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/25.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>In previous articles, I wrote about the deployment plan for Pingvin Share. Many friends recommended FileCodeBox to me. After deploying and using it, I feel it is indeed very good, so I wrote a deployment tutorial to help everyone deploy.</p><h3>Comparison:</h3><table><thead><tr><th> </th><th>FileCodeBox</th><th>Pingvin Share</th></tr></thead><tbody><tr><td>Easy Upload</td><td>✅</td><td>✅</td></tr><tr><td>Prevent Brute Force/Pickup Code Abuse</td><td>✅</td><td>❌</td></tr><tr><td>Password Sharing</td><td>✅</td><td>✅</td></tr><tr><td>Anonymous Sharing</td><td>✅</td><td>✅</td></tr><tr><td>Admin Panel</td><td>✅</td><td>✅</td></tr><tr><td>Two-Step Login Verification</td><td>❌</td><td>✅</td></tr><tr><td>Aliyun OSS Integration</td><td>✅</td><td>❌</td></tr><tr><td>File Security Monitoring</td><td>❌</td><td>✅</td></tr><tr><td>Ease of Deployment (More stars = Easier)</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr></tbody></table><p class="more"><a href="http://enblog.fuyiran.link/Technology/25.html" title="FileCodeBox ~ File Delivery Cabinet, Retrieve Files Like Retrieving a Parcel">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/25.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/File-Sharing-Platform/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[Build Your Own File Sharing Platform? You Might Need Pingvin Share]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/21.html" />
+<id>http://enblog.fuyiran.link/Technology/21.html</id>
+<updated>2023-08-07T10:14:00+08:00</updated>
+<published>2023-08-07T10:14:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Do you really trust handing your files over to third-party file platforms? Try Pingv...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/21.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Do you really trust handing your files over to third-party file platforms? Try Pingvin Share instead</p><ul><li><strong>Easy to Build</strong> - Easily set up your own file sharing platform using a private server</li><li><strong>Complete Privacy</strong> - Your files belong only to you! No need to put them on third-party file platforms</li><li><strong>Focused on Protection</strong> - Supports two-step verification, your files are solely yours</li><li><strong>More Secure</strong> - More Secure - Fear of Trojan Horse when you send it to your friends? No problem, Pingvin Share supports mounting clamav to make your storage more secure.</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/21.html" title="Build Your Own File Sharing Platform? You Might Need Pingvin Share">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/21.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/File-Sharing-Platform/" thr:count="0"/>
+</entry>
+</feed>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/RSS-Generator/">
+<title>Fu Speaking - RSS Generator</title>
+<link>http://enblog.fuyiran.link/tag/RSS-Generator/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/38.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/38.html">
+<title>RSSHub ~ RSS Generator</title>
+<link>http://enblog.fuyiran.link/Technology/38.html</link>
+<dc:date>2023-08-15T23:59:00+08:00</dc:date>
+<description>Introduction:RSSHub is an open-source, user-friendly, and easily extendable RSS generator. It can generate RSS feeds for any unusual content. With the power of the open-source community, RSSHub is rapidly developing and has currently adapted to thousands of contents from hundreds of websites.RSSHub Source URL: https://docs.rsshub.app/routes[...]</description>
+</item>
+</rdf:RDF>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Lightweight/">
+<title>Fu Speaking - Lightweight</title>
+<link>http://enblog.fuyiran.link/tag/Lightweight/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/42.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/34.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/32.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/31.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/29.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/28.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/24.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/42.html">
+<title>WeekToDo : A Minimalist To-Do List</title>
+<link>http://enblog.fuyiran.link/Technology/42.html</link>
+<dc:date>2023-08-17T23:26:00+08:00</dc:date>
+<description>Introduction:WeekToDo is a privacy-focused to-do list. Users can schedule tasks and projects through the to-do list and calendar. It offers clients on Windows, Mac, and Linux operating systems and can also be used directly online.Features:Supports cross-platform useSupports light and dark mode switchingCustomizable to-do listDrag and drop functionalityMultilingual supportSub-task functionalityMarkdown supportCustomizable user interfaceLocal storageTask color markingTask timing settingsRecurring tasksNotifications and reminder functionality[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/34.html">
+<title>Record Inspiration Anytime, Write Notes Anywhere! Memos - A Handy Online Notepad Tool, and Also a Small Community</title>
+<link>http://enblog.fuyiran.link/Technology/34.html</link>
+<dc:date>2023-08-13T23:55:00+08:00</dc:date>
+<description>Introduction:Memos is a very practical online notepad application that allows you to record your thoughts, inspirations, and notes anytime and anywhere, without worrying about losing your notepad. At the same time, it's a lightweight community where you can share your life with everyone. PaoPaoMemosManagement System❌✅Friend System✅❌Following System✅❌User Registration✅❌Record Location in Posts✅❌SSO Single Sign-On❌✅Upload AttachmentsPhotos/Videos OnlyNo LimitInterface Aesthetics🌟🌟🌟🌟🌟🌟🌟🌟🌟Deployment Difficulty😈😈😈😈😈😈😈😈[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/32.html">
+<title>A Step Further, Personal Navigation Page Configurable Without a Server</title>
+<link>http://enblog.fuyiran.link/Technology/32.html</link>
+<dc:date>2023-08-13T00:37:00+08:00</dc:date>
+<description>Introduction:CF-Worker-Dir is a cloud function application suitable for the Cloudflare Worker platform. You can use it to build your own navigation page within a minute, and even reserve an interface to help you sell your domain name. If your domain name has not yet been set up with a website, why not make use of CF-Worker-Dir to prevent your domain from being wasted? 😉 CF-Worker-DirLinkStackCustomization Level🌟🌟🌟🌟🌟🌟🌟🌟Deployment Difficulty😈😈😈😈😈😈[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/31.html">
+<title>LinkStack is a great choice for deploying a beautiful and lightweight link aggregator page!</title>
+<link>http://enblog.fuyiran.link/Technology/31.html</link>
+<dc:date>2023-08-12T12:28:00+08:00</dc:date>
+<description>Introduction:LinkStack, an open-source link aggregation page, is known as the ultimate link management solution. It allows for effective online management and link sharing, enabling users to overcome the limitation of only being able to add one link on social media platforms. Users can customize the appearance of LinkStack instances by theme, and its high customizability is its advantage. CF-Worker-DirLinkStack自定义化程度🌟🌟🌟🌟🌟🌟🌟🌟部署难度😈😈😈😈😈😈[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/29.html">
+<title>A Step Further, Short Domains Configurable Without Servers</title>
+<link>http://enblog.fuyiran.link/Technology/29.html</link>
+<dc:date>2023-08-11T11:23:00+08:00</dc:date>
+<description>Introduction:020 Short Link, a simple and free short link platform implemented using Cloudflare Worker[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/28.html">
+<title>Self-Deploying an Excellent Password Manager ~ Bitwarden</title>
+<link>http://enblog.fuyiran.link/Technology/28.html</link>
+<dc:date>2023-08-11T00:11:00+08:00</dc:date>
+<description>Introduction:Bitwarden is an open-source password management tool, similar to SafeInCloud, 1Password, and others. Its official server side is developed using .Net, browser plugins and desktop applications are written in Javascript, while mobile applications are implemented in C#. The system's database uses mssql, and since it occupies a large amount of memory, a machine deploying this system must have at least 3GB of memory.However, the good news is that someone has implemented Bitwarden using Rust and provided a Docker image, reducing the machine configuration requirements, and some paid features in the official version can be used for free in this open-source implementation. This article uses vaultwarden to configure Bitwarden.[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/24.html">
+<title>Cryptgeon - A Lightweight Secure Message and Document Sharing Platform</title>
+<link>http://enblog.fuyiran.link/Technology/24.html</link>
+<dc:date>2023-08-09T00:12:00+08:00</dc:date>
+<description>Introduction:Cryptgeon is a secure, open-source lightweight platform for sharing encrypted messages and documents, inspired by PrivNote.[...]</description>
+</item>
+</rdf:RDF>

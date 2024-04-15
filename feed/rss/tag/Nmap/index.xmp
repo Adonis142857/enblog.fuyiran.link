@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Nmap/">
+<title>Fu Speaking - Nmap</title>
+<link>http://enblog.fuyiran.link/tag/Nmap/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/5.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/5.html">
+<title>How to Use Mirror Sites to Create a Multilingual Typecho Site</title>
+<link>http://enblog.fuyiran.link/Technology/5.html</link>
+<dc:date>2023-07-31T00:34:00+08:00</dc:date>
+<description>While attempting to use Typecho to create a bilingual blog, I encountered a problem: I wanted the blog to support both Chinese and English languages. However, after some searching, I couldn't find a method to directly implement this function. Therefore, I learned PHP on the fly and tried using the mirror site mode. The blog site is a Chinese site, and the enblog site is an English site. Users can switch between them in the sidebar. This is a crude method, but it's a convenient one for someone like me who isn't very technically proficient. I'm sharing my code here in the hope that it will inspire others to further optimize it.[...]</description>
+</item>
+</rdf:RDF>

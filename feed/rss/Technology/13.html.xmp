@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://enblog.fuyiran.link/feed/rss/Technology/13.html">
+<title>Comments to Fu Speaking - How to Configure an Easily Expandable Instant Chat Application — Tailchat</title>
+<link>https://enblog.fuyiran.link/Technology/13.html</link>
+<description>Introduction:Tailchat—An open-source and easily expandable instant chat application, making commu...</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

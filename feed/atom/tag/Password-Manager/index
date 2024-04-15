@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/Password-Manager/"
+>
+<title type="text">Fu Speaking - Password Manager</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-11T00:11:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/Password-Manager/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/Password-Manager/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Password-Manager/" />
+<entry>
+<title type="html"><![CDATA[Self-Deploying an Excellent Password Manager ~ Bitwarden]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/28.html" />
+<id>http://enblog.fuyiran.link/Technology/28.html</id>
+<updated>2023-08-11T00:11:00+08:00</updated>
+<published>2023-08-11T00:11:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Bitwarden is an open-source password management tool, similar to SafeInCloud, 1Passw...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/28.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Bitwarden is an open-source password management tool, similar to SafeInCloud, 1Password, and others. Its official server side is developed using .Net, browser plugins and desktop applications are written in Javascript, while mobile applications are implemented in C#. The system's database uses mssql, and since it occupies a large amount of memory, a machine deploying this system must have at least 3GB of memory.<br>However, the good news is that someone has implemented Bitwarden using Rust and provided a Docker image, reducing the machine configuration requirements, and some paid features in the official version can be used for free in this open-source implementation. This article uses vaultwarden to configure Bitwarden.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/28.html" title="Self-Deploying an Excellent Password Manager ~ Bitwarden">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/28.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Password-Manager/" thr:count="0"/>
+</entry>
+</feed>

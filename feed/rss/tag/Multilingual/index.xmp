@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Multilingual/">
+<title>Fu Speaking - Multilingual</title>
+<link>http://enblog.fuyiran.link/tag/Multilingual/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/7.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/7.html">
+<title>How to Introduce &amp;quot;Busuanzi&amp;quot; to Count Visits in Typecho</title>
+<link>http://enblog.fuyiran.link/Technology/7.html</link>
+<dc:date>2023-08-01T10:42:00+08:00</dc:date>
+<description>Implementation EffectThe count is not displayed until the visitor data is retrieved.The main site only shows the total site page views and the total number of visitors.The article section shows the total site page views, total article page views, and total number of visitors.[...]</description>
+</item>
+</rdf:RDF>

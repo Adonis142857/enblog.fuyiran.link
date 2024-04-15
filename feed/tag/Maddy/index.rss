@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Maddy</title>
+<link>http://enblog.fuyiran.link/tag/Maddy/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Maddy/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Sun, 06 Aug 2023 00:17:00 +0800</lastBuildDate>
+<pubDate>Sun, 06 Aug 2023 00:17:00 +0800</pubDate>
+<item>
+<title>Want to Set Up Your Own Mail Server? Try Maddy</title>
+<link>http://enblog.fuyiran.link/Technology/18.html</link>
+<guid>http://enblog.fuyiran.link/Technology/18.html</guid>
+<pubDate>Sun, 06 Aug 2023 00:17:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Maddy is a mail server developed in Go, easy to deploy, low in resource consumption,...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Maddy is a mail server developed in Go, easy to deploy, low in resource consumption, and suitable for personal use.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/18.html" title="Want to Set Up Your Own Mail Server? Try Maddy">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/18.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Maddy/</wfw:commentRss>
+</item>
+</channel>
+</rss>

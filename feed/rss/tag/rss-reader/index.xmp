@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/rss-reader/">
+<title>Fu Speaking - rss-reader</title>
+<link>http://enblog.fuyiran.link/tag/rss-reader/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/45.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/45.html">
+<title>rss-reader An RSS online viewer for instant messaging on web sites</title>
+<link>http://enblog.fuyiran.link/Technology/45.html</link>
+<dc:date>2023-08-19T12:16:00+08:00</dc:date>
+<description>Introduction:rss-reader, an RSS online browsing tool for real-time news from websites.Preview:[...]</description>
+</item>
+</rdf:RDF>

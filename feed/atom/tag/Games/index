@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/Games/"
+>
+<title type="text">Fu Speaking - Games</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-18T11:30:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/Games/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/Games/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Games/" />
+<entry>
+<title type="html"><![CDATA[Habitica: Using Games to Cultivate Your Habits]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/43.html" />
+<id>http://enblog.fuyiran.link/Technology/43.html</id>
+<updated>2023-08-18T11:30:00+08:00</updated>
+<published>2023-08-18T11:30:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Habitica is an open-source habit-building program that treats your life as a role-pl...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/43.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Habitica is an open-source habit-building program that treats your life as a role-playing game. When you successfully achieve the goals you set, your character will level up. If you fail, your character will lose HP in the game. You can also earn money to purchase weapons and armor by forming habits. This program not only helps you build and stick to habits but also brings you the fun and sense of accomplishment of gaming.</p><h2>Note:</h2><p>It's not recommended for individuals to deploy this themselves. Official apps are available for Android and IOS. Self-deployment cannot be linked (but can interact with the web version).</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/43.html" title="Habitica: Using Games to Cultivate Your Habits">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/43.html#comments" thr:count="1" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Games/" thr:count="1"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[How to Deploy a Web Version of a Retro DOS Game Library—Play 1898 Games]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/14.html" />
+<id>http://enblog.fuyiran.link/Technology/14.html</id>
+<updated>2023-08-04T00:08:00+08:00</updated>
+<published>2023-08-04T00:08:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Preview Images:]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/14.html" xml:lang="en-US"><![CDATA[
+<h2>Preview Images:</h2><p><img src="https://pic.imgdb.cn/item/64cb19741ddac507ccec9320.jpg" alt="" title=""></p><p class="more"><a href="http://enblog.fuyiran.link/Technology/14.html" title="How to Deploy a Web Version of a Retro DOS Game Library—Play 1898 Games">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/14.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Games/" thr:count="0"/>
+</entry>
+</feed>

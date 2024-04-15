@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - Telegram Media Downloader</title>
+<link>http://enblog.fuyiran.link/tag/Telegram-Media-Downloader/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/tag/Telegram-Media-Downloader/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description></description>
+<lastBuildDate>Tue, 15 Aug 2023 00:36:00 +0800</lastBuildDate>
+<pubDate>Tue, 15 Aug 2023 00:36:00 +0800</pubDate>
+<item>
+<title>Telegram Media Downloader - High-Speed Downloading of TG Files</title>
+<link>http://enblog.fuyiran.link/Technology/36.html</link>
+<guid>http://enblog.fuyiran.link/Technology/36.html</guid>
+<pubDate>Tue, 15 Aug 2023 00:36:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:This is a project based on Dineshkarthik's work, supporting Telegram video/resource ...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>This is a project based on Dineshkarthik's work, supporting Telegram video/resource downloads, web viewing of download progress, bot command download, support for downloading from joined private groups with limited resources, and using speeds far greater than TG client limitations. It also supports uploading to cloud storage via Rclone.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/36.html" title="Telegram Media Downloader - High-Speed Downloading of TG Files">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/36.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/tag/Telegram-Media-Downloader/</wfw:commentRss>
+</item>
+</channel>
+</rss>

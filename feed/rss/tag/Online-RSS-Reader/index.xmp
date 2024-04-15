@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Online-RSS-Reader/">
+<title>Fu Speaking - Online RSS Reader</title>
+<link>http://enblog.fuyiran.link/tag/Online-RSS-Reader/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/45.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/39.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/45.html">
+<title>rss-reader An RSS online viewer for instant messaging on web sites</title>
+<link>http://enblog.fuyiran.link/Technology/45.html</link>
+<dc:date>2023-08-19T12:16:00+08:00</dc:date>
+<description>Introduction:rss-reader, an RSS online browsing tool for real-time news from websites.Preview:[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/39.html">
+<title>CommaFeed ~ Online RSS Reader</title>
+<link>http://enblog.fuyiran.link/Technology/39.html</link>
+<dc:date>2023-08-16T11:59:00+08:00</dc:date>
+<description>Introduction:CommaFeed is a self-hosted RSS reader inspired by Google Reader, based on Dropwizard and React/TypeScript.Features:4 different layoutsDark modeFully responsiveKeyboard shortcuts for almost all operationsSupports feeds from right to leftTranslated into 25+ languagesSupports thousands of users and millions of feedsOPML import/exportREST APIBrowser extensions[...]</description>
+</item>
+</rdf:RDF>

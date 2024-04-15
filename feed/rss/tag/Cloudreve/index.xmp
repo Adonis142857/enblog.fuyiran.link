@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Cloudreve/">
+<title>Fu Speaking - Cloudreve</title>
+<link>http://enblog.fuyiran.link/tag/Cloudreve/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/19.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/19.html">
+<title>Building Your Own Cloud Storage? Try Cloudreve</title>
+<link>http://enblog.fuyiran.link/Technology/19.html</link>
+<dc:date>2023-08-06T10:26:00+08:00</dc:date>
+<description>Introduction:Cloudreve is a suitable network disk system for both personal and public use, supporting a variety of cloud storage platforms, such as Qiniu, OSS, COS, Upyun, OneDrive, S3. Users do not need to worry about the physical storage method during actual use. It can be used to build personal network disks, file sharing systems, as well as public cloud systems for groups of various sizes.[...]</description>
+</item>
+</rdf:RDF>

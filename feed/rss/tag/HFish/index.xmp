@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/HFish/">
+<title>Fu Speaking - HFish</title>
+<link>http://enblog.fuyiran.link/tag/HFish/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/23.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/23.html">
+<title>HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws</title>
+<link>http://enblog.fuyiran.link/Technology/23.html</link>
+<dc:date>2023-08-08T10:38:00+08:00</dc:date>
+<description>IntroductionA honeypot, a technology used to deceive attackers, is created by setting up hosts, network services, or information as bait to lure attackers into attacking them. This allows capturing and analyzing the attacking behavior, understanding the tools and methods used by the attackers, and inferring the attackers' intentions and motives. It helps defenders to clearly understand the security threats they face and enhance the security protection capabilities of the actual system through technical and management means.[...]</description>
+</item>
+</rdf:RDF>

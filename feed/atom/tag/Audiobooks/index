@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/Audiobooks/"
+>
+<title type="text">Fu Speaking - Audiobooks</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-14T12:02:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/Audiobooks/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/Audiobooks/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Audiobooks/" />
+<entry>
+<title type="html"><![CDATA[Self-hosted Audiobooks and Podcasts? Try Audiobookshelf]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/35.html" />
+<id>http://enblog.fuyiran.link/Technology/35.html</id>
+<updated>2023-08-14T12:02:00+08:00</updated>
+<published>2023-08-14T12:02:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Audiobookshelf is a self-hosted audiobook and podcast server, designed specifically ...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/35.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Audiobookshelf is a self-hosted audiobook and podcast server, designed specifically for audio enthusiasts. It is completely open source, including Android and iOS apps that are currently in the testing phase. It allows instant streaming of all audio formats, supports searching, and adding podcasts.</p><p>What makes Audiobookshelf unique is its ability to automatically detect library updates and batch uploads. It can back up metadata and automatically perform daily backups, obtain metadata and covers from multiple sources, and is equipped with a chapter editor and chapter search function. It allows users to merge audio files into a single m4b format and embed metadata and cover images into the audio files. Also, it can act as an e-book reader, supporting Epub, pdf, cbr, and cbz formats. Users can even send e-books to devices (such as Kindle) and set up RSS feeds for podcasts and audiobooks.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/35.html" title="Self-hosted Audiobooks and Podcasts? Try Audiobookshelf">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/35.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Audiobooks/" thr:count="0"/>
+</entry>
+</feed>

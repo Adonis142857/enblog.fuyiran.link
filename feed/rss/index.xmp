@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/">
+<title>Fu Speaking</title>
+<link>https://enblog.fuyiran.link/</link>
+<description>Join me as we explore the world from a fresh perspective. Here, you will find unique analysis of the latest tech news, in-depth records of learning processes, distinctive deep thoughts, and practical resource sharing. Whether you're a student, tech enthusiast, or an explorer seeking direction in life, I believe you'll find what you need here. Together, let's learn and co-create the future.</description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/47.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/46.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/45.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/44.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/43.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/42.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/41.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/40.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/39.html"/>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/38.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/47.html">
+<title>Flare : Personal Bookmark Navigation</title>
+<link>http://enblog.fuyiran.link/Technology/47.html</link>
+<dc:date>2023-08-20T10:08:00+08:00</dc:date>
+<description>Introduction:Flare is a bookmark navigator that has been carefully designed in terms of performance, data security, aesthetics, and user experience.Features:Performance Advantage: Compared to its predecessor Flame, Flare has a distinct performance advantage. Whether it's the small 10MB container image size or the usual consumption of around 30MB of memory, Flare can launch the page in a second in 99% of cases, and memory usage remains at 60MB even under extreme conditions.Simple and Transparent Data Strategy: Flare uses a text format to store bookmark data, ensuring data persistence and transparency. Whether the software can't run someday in the future, or users want to switch to other tools, data migration costs are very low.Elegant Interface: Flare offers consistent bookmark icon designs, including minimalist weather animation icons and over 6000 Material Design Icons, ensuring the software interface's aesthetics.Tools for the Lazy: Flare has a built-in icon quick selection tool, as well as a user-friendly weather display feature, reducing user operation costs.Online Editing: To meet users' editing needs anytime and anywhere, Flare added an online editing feature in the latest version.[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/46.html">
+<title>OneNav: A Personalized Bookmark Management System</title>
+<link>http://enblog.fuyiran.link/Technology/46.html</link>
+<dc:date>2023-08-20T00:04:00+08:00</dc:date>
+<description>Introduction:OneNav, a bookmark management system developed using PHP + SQLite 3, centralizes browser bookmark management, ensuring deployment in one place and access from anywhere.Features:Distinctive featuresSupports backend managementSupports private linksSupports bulk import of bookmarks from Chrome/Firefox/EdgeSupports multiple theme stylesSupports automatic link information recognitionSupports APISupports Docker deploymentSupports uTools pluginSupports secondary categorizationSupports browser extensions (plugins) for Chromium kernelSupports online updatesMobile version backend[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/45.html">
+<title>rss-reader An RSS online viewer for instant messaging on web sites</title>
+<link>http://enblog.fuyiran.link/Technology/45.html</link>
+<dc:date>2023-08-19T12:16:00+08:00</dc:date>
+<description>Introduction:rss-reader, an RSS online browsing tool for real-time news from websites.Preview:[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/44.html">
+<title>TangSengDaoDao, An Open-Source Instant Messaging Software</title>
+<link>http://enblog.fuyiran.link/Technology/44.html</link>
+<dc:date>2023-08-19T00:12:00+08:00</dc:date>
+<description>Introduction:TangSengDaoDao is a lightweight, high-performance, security-focused open-source instant messaging system, dedicated to private deployment.Features:🆓 Open Source & Free: Server-side code, APP code, Web/PC-side code are all open source under the Apache 2.0 open-source license (commercially usable), no one can control you.🔏 Private Deployment: All programs and data are on your own server. No need to worry about data leakage or data being used for other purposes.🆚 Guaranteed Message Delivery: Uses tcp + ack mechanism to ensure message delivery, supports offline messages, and message roaming.🔐 Content Security: Message transmission uses a private binary encryption protocol, DH + streaming encryption, to prevent message content leakage.💽 Permanent Message Storage: Messages support permanent storage, thanks to WuKongIM's proprietary messaging db. Permanent storage doesn't affect performance, just consumes some disk space.📱 Multi-Device Message Sync: Supports 1 mobile end, multiple Web/PC ends online simultaneously, and real-time message synchronization between multiple devices.📟 Full Platform Support: iOS, Android, Windows, MAC, Ubuntu, WebNote:In the self-deployed client, new users must use the iOS/Android app for registration and password recovery is not available. The open source version has a lot of features that are not available and Tailchat is more recommendedDeployment Tutorial：https://enblog.fuyiran.link/Technology/13.html[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/43.html">
+<title>Habitica: Using Games to Cultivate Your Habits</title>
+<link>http://enblog.fuyiran.link/Technology/43.html</link>
+<dc:date>2023-08-18T11:30:00+08:00</dc:date>
+<description>Introduction:Habitica is an open-source habit-building program that treats your life as a role-playing game. When you successfully achieve the goals you set, your character will level up. If you fail, your character will lose HP in the game. You can also earn money to purchase weapons and armor by forming habits. This program not only helps you build and stick to habits but also brings you the fun and sense of accomplishment of gaming.Note:It's not recommended for individuals to deploy this themselves. Official apps are available for Android and IOS. Self-deployment cannot be linked (but can interact with the web version).[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/42.html">
+<title>WeekToDo : A Minimalist To-Do List</title>
+<link>http://enblog.fuyiran.link/Technology/42.html</link>
+<dc:date>2023-08-17T23:26:00+08:00</dc:date>
+<description>Introduction:WeekToDo is a privacy-focused to-do list. Users can schedule tasks and projects through the to-do list and calendar. It offers clients on Windows, Mac, and Linux operating systems and can also be used directly online.Features:Supports cross-platform useSupports light and dark mode switchingCustomizable to-do listDrag and drop functionalityMultilingual supportSub-task functionalityMarkdown supportCustomizable user interfaceLocal storageTask color markingTask timing settingsRecurring tasksNotifications and reminder functionality[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/41.html">
+<title>Tiny Tiny RSS ～ an excellent RSS aggregation reading service</title>
+<link>http://enblog.fuyiran.link/Technology/41.html</link>
+<dc:date>2023-08-17T12:30:00+08:00</dc:date>
+<description>Introduction:Tiny Tiny RSS is a free open-source RSS aggregator reading service based on PHP. Awesome TTRSS offers a Tiny Tiny RSS container deployed using Docker. It enhances the user experience by offering a simple deployment method and some additional plugins.[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/40.html">
+<title>Wallabag: Read Later and Supports Generating RSS Feeds!</title>
+<link>http://enblog.fuyiran.link/Technology/40.html</link>
+<dc:date>2023-08-16T23:28:00+08:00</dc:date>
+<description>Introduction:Wallabag is a tool for saving web pages to read later. It automatically extracts content, helping you stay undistracted from pop-up windows.Sample Image:[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/39.html">
+<title>CommaFeed ~ Online RSS Reader</title>
+<link>http://enblog.fuyiran.link/Technology/39.html</link>
+<dc:date>2023-08-16T11:59:00+08:00</dc:date>
+<description>Introduction:CommaFeed is a self-hosted RSS reader inspired by Google Reader, based on Dropwizard and React/TypeScript.Features:4 different layoutsDark modeFully responsiveKeyboard shortcuts for almost all operationsSupports feeds from right to leftTranslated into 25+ languagesSupports thousands of users and millions of feedsOPML import/exportREST APIBrowser extensions[...]</description>
+</item>
+<item rdf:about="http://enblog.fuyiran.link/Technology/38.html">
+<title>RSSHub ~ RSS Generator</title>
+<link>http://enblog.fuyiran.link/Technology/38.html</link>
+<dc:date>2023-08-15T23:59:00+08:00</dc:date>
+<description>Introduction:RSSHub is an open-source, user-friendly, and easily extendable RSS generator. It can generate RSS feeds for any unusual content. With the power of the open-source community, RSSHub is rapidly developing and has currently adapted to thousands of contents from hundreds of websites.RSSHub Source URL: https://docs.rsshub.app/routes[...]</description>
+</item>
+</rdf:RDF>

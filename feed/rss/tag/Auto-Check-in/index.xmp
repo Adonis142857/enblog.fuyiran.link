@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Auto-Check-in/">
+<title>Fu Speaking - Auto Check-in</title>
+<link>http://enblog.fuyiran.link/tag/Auto-Check-in/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/20.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/20.html">
+<title>QD ~ An Automatic Scheduled Task Execution Framework Not Limited to Auto Check-in</title>
+<link>http://enblog.fuyiran.link/Technology/20.html</link>
+<dc:date>2023-08-07T00:08:00+08:00</dc:date>
+<description>Introduction:QD, an automatic scheduled task execution framework, can help with auto check-in, auto commenting, auto lucky draw, and auto gift collection. If you can think of it, there's nothing it can't do (it can even bypass the CF five-second shield opened by websites through grabbing corresponding ip's ck and ua).[...]</description>
+</item>
+</rdf:RDF>

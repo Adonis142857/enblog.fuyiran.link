@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Must-Have-for-Card-Selling/">
+<title>Fu Speaking - Must-Have for Card Selling</title>
+<link>http://enblog.fuyiran.link/tag/Must-Have-for-Card-Selling/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/30.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/30.html">
+<title>Step-by-Step Guide to Building an Automated Program to Detect and Unlock Apple ID: A Must-Have for Card Selling Websites</title>
+<link>http://enblog.fuyiran.link/Technology/30.html</link>
+<dc:date>2023-08-12T00:15:00+08:00</dc:date>
+<description>Introductionappleid_auto, an automated Apple ID detection & unlocking program based on security questions.The front-end is used to manage accounts, supporting the addition of multiple accounts and displaying an account page.Supports creating sharing pages with multiple accounts and setting passwords for them.The back-end periodically checks whether accounts are locked; if locked or if two-step verification is enabled, it automatically unlocks them, changes passwords, and reports the passwords to the API.Logs into Apple ID and automatically deletes devices in Apple ID.Enables proxy pools and Selenium clusters to increase unlocking success rates and prevent risk control.Card selling websites can use it to build an account sharing interface to attract traffic.[...]</description>
+</item>
+</rdf:RDF>

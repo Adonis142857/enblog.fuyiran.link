@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/Wallabag/"
+>
+<title type="text">Fu Speaking - Wallabag</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-16T23:28:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/Wallabag/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/Wallabag/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Wallabag/" />
+<entry>
+<title type="html"><![CDATA[Wallabag: Read Later and Supports Generating RSS Feeds!]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/40.html" />
+<id>http://enblog.fuyiran.link/Technology/40.html</id>
+<updated>2023-08-16T23:28:00+08:00</updated>
+<published>2023-08-16T23:28:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:Wallabag is a tool for saving web pages to read later. It automatically extracts con...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/40.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Wallabag is a tool for saving web pages to read later. It automatically extracts content, helping you stay undistracted from pop-up windows.</p><h2>Sample Image:</h2><p><img src="https://pic.imgdb.cn/item/64dce556661c6c8e54161b7e.jpg" alt="" title=""></p><p class="more"><a href="http://enblog.fuyiran.link/Technology/40.html" title="Wallabag: Read Later and Supports Generating RSS Feeds!">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/40.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Wallabag/" thr:count="0"/>
+</entry>
+</feed>

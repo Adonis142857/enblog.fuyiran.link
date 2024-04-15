@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://enblog.fuyiran.link/feed/rss/tag/Micro-Community/">
+<title>Fu Speaking - Micro-Community</title>
+<link>https://enblog.fuyiran.link/tag/Micro-Community/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://enblog.fuyiran.link/Technology/34.html"/>
+<rdf:li resource="https://enblog.fuyiran.link/Technology/27.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://enblog.fuyiran.link/Technology/34.html">
+<title>Record Inspiration Anytime, Write Notes Anywhere! Memos - A Handy Online Notepad Tool, and Also a Small Community</title>
+<link>https://enblog.fuyiran.link/Technology/34.html</link>
+<dc:date>2023-08-13T23:55:00+08:00</dc:date>
+<description>Introduction:Memos is a very practical online notepad application that allows you to record your thoughts, inspirations, and notes anytime and anywhere, without worrying about losing your notepad. At the same time, it's a lightweight community where you can share your life with everyone. PaoPaoMemosManagement System❌✅Friend System✅❌Following System✅❌User Registration✅❌Record Location in Posts✅❌SSO Single Sign-On❌✅Upload AttachmentsPhotos/Videos OnlyNo LimitInterface Aesthetics🌟🌟🌟🌟🌟🌟🌟🌟🌟Deployment Difficulty😈😈😈😈😈😈😈😈[...]</description>
+</item>
+<item rdf:about="https://enblog.fuyiran.link/Technology/27.html">
+<title>Paopao, A Refreshing and Artistic Micro-Community</title>
+<link>https://enblog.fuyiran.link/Technology/27.html</link>
+<dc:date>2023-08-10T11:15:00+08:00</dc:date>
+<description>Introduction:Paopao is a refreshing and artistic micro-community. The backend is implemented using Go Gin Mir Buf gRPC Zinc, and the frontend is implemented using Naive UI Vue.js Vite.js tauri. PaoPaoMemosManagement System❌✅Friend System✅❌Following System✅❌User Registration✅❌Record Location in Posts✅❌SSO Single Sign-On❌✅Upload AttachmentsPhotos/Videos OnlyNo LimitInterface Aesthetics🌟🌟🌟🌟🌟🌟🌟🌟🌟Deployment Difficulty😈😈😈😈😈😈😈😈[...]</description>
+</item>
+</rdf:RDF>

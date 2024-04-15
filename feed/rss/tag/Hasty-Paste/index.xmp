@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Hasty-Paste/">
+<title>Fu Speaking - Hasty Paste</title>
+<link>http://enblog.fuyiran.link/tag/Hasty-Paste/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/37.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/37.html">
+<title>Hasty Paste - A More Suitable Clipboard for Code Sharing</title>
+<link>http://enblog.fuyiran.link/Technology/37.html</link>
+<dc:date>2023-08-15T12:08:00+08:00</dc:date>
+<description>IntroductionHasty Paste, a lightweight self-hosted clipboard, allows you to quickly paste and save text, and share it with others. You can access it without logging in, using a randomly generated number to uniquely identify each paste, and it provides a long number to resist brute-force cracking attacks. It supports configurable expiration times and night mode, and you can optionally highlight syntax. It runs without needing JavaScript.[...]</description>
+</item>
+</rdf:RDF>

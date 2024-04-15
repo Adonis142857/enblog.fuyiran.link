@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Fu Speaking - 2023 - 8</title>
+<link>http://enblog.fuyiran.link/2023/08/</link>
+<atom:link href="http://enblog.fuyiran.link/feed/2023/08/" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description>Join me as we explore the world from a fresh perspective. Here, you will find unique analysis of the latest tech news, in-depth records of learning processes, distinctive deep thoughts, and practical resource sharing. Whether you're a student, tech enthusiast, or an explorer seeking direction in life, I believe you'll find what you need here. Together, let's learn and co-create the future.</description>
+<lastBuildDate>Sun, 20 Aug 2023 10:08:00 +0800</lastBuildDate>
+<pubDate>Sun, 20 Aug 2023 10:08:00 +0800</pubDate>
+<item>
+<title>Flare : Personal Bookmark Navigation</title>
+<link>http://enblog.fuyiran.link/Technology/47.html</link>
+<guid>http://enblog.fuyiran.link/Technology/47.html</guid>
+<pubDate>Sun, 20 Aug 2023 10:08:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Flare is a bookmark navigator that has been carefully designed in terms of performan...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Flare is a bookmark navigator that has been carefully designed in terms of performance, data security, aesthetics, and user experience.</p><h2>Features:</h2><ul><li><strong>Performance Advantage</strong>: Compared to its predecessor Flame, Flare has a distinct performance advantage. Whether it's the small 10MB container image size or the usual consumption of around 30MB of memory, Flare can launch the page in a second in 99% of cases, and memory usage remains at 60MB even under extreme conditions.</li><li><strong>Simple and Transparent Data Strategy</strong>: Flare uses a text format to store bookmark data, ensuring data persistence and transparency. Whether the software can't run someday in the future, or users want to switch to other tools, data migration costs are very low.</li><li><strong>Elegant Interface</strong>: Flare offers consistent bookmark icon designs, including minimalist weather animation icons and over 6000 Material Design Icons, ensuring the software interface's aesthetics.</li><li><strong>Tools for the Lazy</strong>: Flare has a built-in icon quick selection tool, as well as a user-friendly weather display feature, reducing user operation costs.</li><li><strong>Online Editing</strong>: To meet users' editing needs anytime and anywhere, Flare added an online editing feature in the latest version.</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/47.html" title="Flare : Personal Bookmark Navigation">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/47.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/2023/08/</wfw:commentRss>
+</item>
+<item>
+<title>OneNav: A Personalized Bookmark Management System</title>
+<link>http://enblog.fuyiran.link/Technology/46.html</link>
+<guid>http://enblog.fuyiran.link/Technology/46.html</guid>
+<pubDate>Sun, 20 Aug 2023 00:04:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:OneNav, a bookmark management system developed using PHP + SQLite 3, centralizes bro...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>OneNav, a bookmark management system developed using PHP + SQLite 3, centralizes browser bookmark management, ensuring deployment in one place and access from anywhere.</p><h2>Features:</h2><ul><li>Distinctive features</li><li>Supports backend management</li><li>Supports private links</li><li>Supports bulk import of bookmarks from Chrome/Firefox/Edge</li><li>Supports multiple theme styles</li><li>Supports automatic link information recognition</li><li>Supports API</li><li>Supports Docker deployment</li><li>Supports uTools plugin</li><li>Supports secondary categorization</li><li>Supports browser extensions (plugins) for Chromium kernel</li><li>Supports online updates</li><li>Mobile version backend</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/46.html" title="OneNav: A Personalized Bookmark Management System">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/46.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/2023/08/</wfw:commentRss>
+</item>
+<item>
+<title>rss-reader An RSS online viewer for instant messaging on web sites</title>
+<link>http://enblog.fuyiran.link/Technology/45.html</link>
+<guid>http://enblog.fuyiran.link/Technology/45.html</guid>
+<pubDate>Sat, 19 Aug 2023 12:16:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:rss-reader, an RSS online browsing tool for real-time news from websites.Preview:]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>rss-reader, an RSS online browsing tool for real-time news from websites.</p><h2>Preview:</h2><p><img src="https://pic.imgdb.cn/item/64df936a661c6c8e54b12663.jpg" alt="" title=""></p><p class="more"><a href="http://enblog.fuyiran.link/Technology/45.html" title="rss-reader An RSS online viewer for instant messaging on web sites">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/45.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/2023/08/</wfw:commentRss>
+</item>
+<item>
+<title>TangSengDaoDao, An Open-Source Instant Messaging Software</title>
+<link>http://enblog.fuyiran.link/Technology/44.html</link>
+<guid>http://enblog.fuyiran.link/Technology/44.html</guid>
+<pubDate>Sat, 19 Aug 2023 00:12:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:TangSengDaoDao is a lightweight, high-performance, security-focused open-source inst...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>TangSengDaoDao is a lightweight, high-performance, security-focused open-source instant messaging system, dedicated to private deployment.</p><h2>Features:</h2><ul><li>🆓 <strong>Open Source & Free</strong>: Server-side code, APP code, Web/PC-side code are all open source under the Apache 2.0 open-source license (commercially usable), no one can control you.</li><li>🔏 <strong>Private Deployment</strong>: All programs and data are on your own server. No need to worry about data leakage or data being used for other purposes.</li><li>🆚 <strong>Guaranteed Message Delivery</strong>: Uses tcp + ack mechanism to ensure message delivery, supports offline messages, and message roaming.</li><li>🔐 <strong>Content Security</strong>: Message transmission uses a private binary encryption protocol, DH + streaming encryption, to prevent message content leakage.</li><li>💽 <strong>Permanent Message Storage</strong>: Messages support permanent storage, thanks to WuKongIM's proprietary messaging db. Permanent storage doesn't affect performance, just consumes some disk space.</li><li>📱 <strong>Multi-Device Message Sync</strong>: Supports 1 mobile end, multiple Web/PC ends online simultaneously, and real-time message synchronization between multiple devices.</li><li>📟 <strong>Full Platform Support</strong>: iOS, Android, Windows, MAC, Ubuntu, Web</li></ul><h2>Note:</h2><p>In the self-deployed client, new users must use the iOS/Android app for registration and password recovery is not available. <br>The open source version has a lot of features that are not available and Tailchat is more recommended<br>Deployment Tutorial：<a href="https://enblog.fuyiran.link/Technology/13.html">https://enblog.fuyiran.link/Technology/13.html</a><br><img src="https://pic.imgdb.cn/item/64df967d661c6c8e54bb738f.jpg" alt="" title=""></p><p class="more"><a href="http://enblog.fuyiran.link/Technology/44.html" title="TangSengDaoDao, An Open-Source Instant Messaging Software">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/44.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/2023/08/</wfw:commentRss>
+</item>
+<item>
+<title>Habitica: Using Games to Cultivate Your Habits</title>
+<link>http://enblog.fuyiran.link/Technology/43.html</link>
+<guid>http://enblog.fuyiran.link/Technology/43.html</guid>
+<pubDate>Fri, 18 Aug 2023 11:30:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Habitica is an open-source habit-building program that treats your life as a role-pl...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Habitica is an open-source habit-building program that treats your life as a role-playing game. When you successfully achieve the goals you set, your character will level up. If you fail, your character will lose HP in the game. You can also earn money to purchase weapons and armor by forming habits. This program not only helps you build and stick to habits but also brings you the fun and sense of accomplishment of gaming.</p><h2>Note:</h2><p>It's not recommended for individuals to deploy this themselves. Official apps are available for Android and IOS. Self-deployment cannot be linked (but can interact with the web version).</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/43.html" title="Habitica: Using Games to Cultivate Your Habits">[...]</a></p>
+]]></content:encoded>
+<slash:comments>1</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/43.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/2023/08/</wfw:commentRss>
+</item>
+<item>
+<title>WeekToDo : A Minimalist To-Do List</title>
+<link>http://enblog.fuyiran.link/Technology/42.html</link>
+<guid>http://enblog.fuyiran.link/Technology/42.html</guid>
+<pubDate>Thu, 17 Aug 2023 23:26:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:WeekToDo is a privacy-focused to-do list. Users can schedule tasks and projects thro...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>WeekToDo is a privacy-focused to-do list. Users can schedule tasks and projects through the to-do list and calendar. It offers clients on Windows, Mac, and Linux operating systems and can also be used directly online.</p><h2>Features:</h2><ul><li>Supports cross-platform use</li><li>Supports light and dark mode switching</li><li>Customizable to-do list</li><li>Drag and drop functionality</li><li>Multilingual support</li><li>Sub-task functionality</li><li>Markdown support</li><li>Customizable user interface</li><li>Local storage</li><li>Task color marking</li><li>Task timing settings</li><li>Recurring tasks</li><li>Notifications and reminder functionality</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/42.html" title="WeekToDo : A Minimalist To-Do List">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/42.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/2023/08/</wfw:commentRss>
+</item>
+<item>
+<title>Tiny Tiny RSS ～ an excellent RSS aggregation reading service</title>
+<link>http://enblog.fuyiran.link/Technology/41.html</link>
+<guid>http://enblog.fuyiran.link/Technology/41.html</guid>
+<pubDate>Thu, 17 Aug 2023 12:30:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Tiny Tiny RSS is a free open-source RSS aggregator reading service based on PHP. Awe...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Tiny Tiny RSS is a free open-source RSS aggregator reading service based on PHP. Awesome TTRSS offers a Tiny Tiny RSS container deployed using Docker. It enhances the user experience by offering a simple deployment method and some additional plugins.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/41.html" title="Tiny Tiny RSS ～ an excellent RSS aggregation reading service">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/41.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/2023/08/</wfw:commentRss>
+</item>
+<item>
+<title>Wallabag: Read Later and Supports Generating RSS Feeds!</title>
+<link>http://enblog.fuyiran.link/Technology/40.html</link>
+<guid>http://enblog.fuyiran.link/Technology/40.html</guid>
+<pubDate>Wed, 16 Aug 2023 23:28:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:Wallabag is a tool for saving web pages to read later. It automatically extracts con...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>Wallabag is a tool for saving web pages to read later. It automatically extracts content, helping you stay undistracted from pop-up windows.</p><h2>Sample Image:</h2><p><img src="https://pic.imgdb.cn/item/64dce556661c6c8e54161b7e.jpg" alt="" title=""></p><p class="more"><a href="http://enblog.fuyiran.link/Technology/40.html" title="Wallabag: Read Later and Supports Generating RSS Feeds!">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/40.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/2023/08/</wfw:commentRss>
+</item>
+<item>
+<title>CommaFeed ~ Online RSS Reader</title>
+<link>http://enblog.fuyiran.link/Technology/39.html</link>
+<guid>http://enblog.fuyiran.link/Technology/39.html</guid>
+<pubDate>Wed, 16 Aug 2023 11:59:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:CommaFeed is a self-hosted RSS reader inspired by Google Reader, based on Dropwizard...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>CommaFeed is a self-hosted RSS reader inspired by Google Reader, based on Dropwizard and React/TypeScript.</p><h2>Features:</h2><ul><li>4 different layouts</li><li>Dark mode</li><li>Fully responsive</li><li>Keyboard shortcuts for almost all operations</li><li>Supports feeds from right to left</li><li>Translated into 25+ languages</li><li>Supports thousands of users and millions of feeds</li><li>OPML import/export</li><li>REST API</li><li>Browser extensions</li></ul><p class="more"><a href="http://enblog.fuyiran.link/Technology/39.html" title="CommaFeed ~ Online RSS Reader">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/39.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/2023/08/</wfw:commentRss>
+</item>
+<item>
+<title>RSSHub ~ RSS Generator</title>
+<link>http://enblog.fuyiran.link/Technology/38.html</link>
+<guid>http://enblog.fuyiran.link/Technology/38.html</guid>
+<pubDate>Tue, 15 Aug 2023 23:59:00 +0800</pubDate>
+<dc:creator>Adonis142857</dc:creator>
+<description><![CDATA[Introduction:RSSHub is an open-source, user-friendly, and easily extendable RSS generator. It can...]]></description>
+<content:encoded xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>RSSHub is an open-source, user-friendly, and easily extendable RSS generator. It can generate RSS feeds for any unusual content. With the power of the open-source community, RSSHub is rapidly developing and has currently adapted to thousands of contents from hundreds of websites.</p><p>RSSHub Source URL: <a href="https://docs.rsshub.app/routes">https://docs.rsshub.app/routes</a></p><p class="more"><a href="http://enblog.fuyiran.link/Technology/38.html" title="RSSHub ~ RSS Generator">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>http://enblog.fuyiran.link/Technology/38.html#comments</comments>
+<wfw:commentRss>http://enblog.fuyiran.link/feed/2023/08/</wfw:commentRss>
+</item>
+</channel>
+</rss>

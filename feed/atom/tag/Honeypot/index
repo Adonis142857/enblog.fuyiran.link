@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/Honeypot/"
+>
+<title type="text">Fu Speaking - Honeypot</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-08T10:38:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/Honeypot/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/Honeypot/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Honeypot/" />
+<entry>
+<title type="html"><![CDATA[HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/23.html" />
+<id>http://enblog.fuyiran.link/Technology/23.html</id>
+<updated>2023-08-08T10:38:00+08:00</updated>
+<published>2023-08-08T10:38:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[IntroductionA honeypot, a technology used to deceive attackers, is created by setting up hosts, n...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/23.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction</h2><p>A honeypot, a technology used to deceive attackers, is created by setting up hosts, network services, or information as bait to lure attackers into attacking them. This allows capturing and analyzing the attacking behavior, understanding the tools and methods used by the attackers, and inferring the attackers' intentions and motives. It helps defenders to clearly understand the security threats they face and enhance the security protection capabilities of the actual system through technical and management means.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/23.html" title="HFish - Configuring a Super Cool Honeypot to Discover Attackers' Flaws">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/23.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Honeypot/" thr:count="0"/>
+</entry>
+</feed>

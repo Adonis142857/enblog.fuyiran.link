@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/Telegram-Media-Downloader/"
+>
+<title type="text">Fu Speaking - Telegram Media Downloader</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-15T00:36:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/Telegram-Media-Downloader/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/Telegram-Media-Downloader/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Telegram-Media-Downloader/" />
+<entry>
+<title type="html"><![CDATA[Telegram Media Downloader - High-Speed Downloading of TG Files]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/36.html" />
+<id>http://enblog.fuyiran.link/Technology/36.html</id>
+<updated>2023-08-15T00:36:00+08:00</updated>
+<published>2023-08-15T00:36:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:This is a project based on Dineshkarthik's work, supporting Telegram video/resource ...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/36.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>This is a project based on Dineshkarthik's work, supporting Telegram video/resource downloads, web viewing of download progress, bot command download, support for downloading from joined private groups with limited resources, and using speeds far greater than TG client limitations. It also supports uploading to cloud storage via Rclone.</p><p class="more"><a href="http://enblog.fuyiran.link/Technology/36.html" title="Telegram Media Downloader - High-Speed Downloading of TG Files">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/36.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/Telegram-Media-Downloader/" thr:count="0"/>
+</entry>
+</feed>

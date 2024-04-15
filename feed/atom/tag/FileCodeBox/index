@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="en-US"
+xml:base="http://enblog.fuyiran.link/tag/FileCodeBox/"
+>
+<title type="text">Fu Speaking - FileCodeBox</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-09T12:20:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/tag/FileCodeBox/" />
+<id>http://enblog.fuyiran.link/feed/atom/tag/FileCodeBox/</id>
+<link rel="self" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/FileCodeBox/" />
+<entry>
+<title type="html"><![CDATA[FileCodeBox ~ File Delivery Cabinet, Retrieve Files Like Retrieving a Parcel]]></title>
+<link rel="alternate" type="text/html" href="http://enblog.fuyiran.link/Technology/25.html" />
+<id>http://enblog.fuyiran.link/Technology/25.html</id>
+<updated>2023-08-09T12:20:00+08:00</updated>
+<published>2023-08-09T12:20:00+08:00</published>
+<author>
+    <name>Adonis142857</name>
+    <uri>https://enblog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[Introduction:In previous articles, I wrote about the deployment plan for Pingvin Share. Many frie...]]></summary>
+<content type="html" xml:base="http://enblog.fuyiran.link/Technology/25.html" xml:lang="en-US"><![CDATA[
+<h2>Introduction:</h2><p>In previous articles, I wrote about the deployment plan for Pingvin Share. Many friends recommended FileCodeBox to me. After deploying and using it, I feel it is indeed very good, so I wrote a deployment tutorial to help everyone deploy.</p><h3>Comparison:</h3><table><thead><tr><th> </th><th>FileCodeBox</th><th>Pingvin Share</th></tr></thead><tbody><tr><td>Easy Upload</td><td>✅</td><td>✅</td></tr><tr><td>Prevent Brute Force/Pickup Code Abuse</td><td>✅</td><td>❌</td></tr><tr><td>Password Sharing</td><td>✅</td><td>✅</td></tr><tr><td>Anonymous Sharing</td><td>✅</td><td>✅</td></tr><tr><td>Admin Panel</td><td>✅</td><td>✅</td></tr><tr><td>Two-Step Login Verification</td><td>❌</td><td>✅</td></tr><tr><td>Aliyun OSS Integration</td><td>✅</td><td>❌</td></tr><tr><td>File Security Monitoring</td><td>❌</td><td>✅</td></tr><tr><td>Ease of Deployment (More stars = Easier)</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr></tbody></table><p class="more"><a href="http://enblog.fuyiran.link/Technology/25.html" title="FileCodeBox ~ File Delivery Cabinet, Retrieve Files Like Retrieving a Parcel">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="http://enblog.fuyiran.link/Technology/25.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="http://enblog.fuyiran.link/feed/atom/tag/FileCodeBox/" thr:count="0"/>
+</entry>
+</feed>

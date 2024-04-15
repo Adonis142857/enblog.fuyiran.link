@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="http://enblog.fuyiran.link/feed/rss/tag/Telegram-Media-Downloader/">
+<title>Fu Speaking - Telegram Media Downloader</title>
+<link>http://enblog.fuyiran.link/tag/Telegram-Media-Downloader/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://enblog.fuyiran.link/Technology/36.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://enblog.fuyiran.link/Technology/36.html">
+<title>Telegram Media Downloader - High-Speed Downloading of TG Files</title>
+<link>http://enblog.fuyiran.link/Technology/36.html</link>
+<dc:date>2023-08-15T00:36:00+08:00</dc:date>
+<description>Introduction:This is a project based on Dineshkarthik's work, supporting Telegram video/resource downloads, web viewing of download progress, bot command download, support for downloading from joined private groups with limited resources, and using speeds far greater than TG client limitations. It also supports uploading to cloud storage via Rclone.[...]</description>
+</item>
+</rdf:RDF>

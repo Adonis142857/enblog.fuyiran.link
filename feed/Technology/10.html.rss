@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>Comments to Fu Speaking - How to configure Zbook (Your Own eBook Download Website)</title>
+<link>https://enblog.fuyiran.link/Technology/10.html</link>
+<atom:link href="https://enblog.fuyiran.link/feed/Technology/10.html" rel="self" type="application/rss+xml" />
+<language>en-US</language>
+<description>Introduction:Zbook, an e-book download website, officially offers e-book file packages that can b...</description>
+<lastBuildDate>Thu, 01 Jan 1970 08:00:00 +0800</lastBuildDate>
+<pubDate>Thu, 01 Jan 1970 08:00:00 +0800</pubDate>
+</channel>
+</rss>
